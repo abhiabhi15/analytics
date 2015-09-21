@@ -1,5 +1,8 @@
 package genderize;
 
+import abhi.genderize.Genderize;
+import abhi.genderize.GenderizeIoAPI;
+import abhi.genderize.NameGender;
 import junit.framework.Assert;
 import org.junit.Test;
 
