@@ -1,12 +1,16 @@
 package abhi.utils;
 
+import java.util.Calendar;
+
 /**
  * Author : abhishek
  * Created on 9/21/15.
  */
 public class CalendarUtils {
 
-    enum Month{
+    static Calendar calendar = Calendar.getInstance();
+
+    enum Month {
         JANUARY("1"),
         FEBRUARY("2"),
         MARCH("3"),
@@ -22,7 +26,7 @@ public class CalendarUtils {
 
         String val;
 
-        Month(String val){
+        Month(String val) {
             this.val = val;
         }
 
@@ -38,15 +42,35 @@ public class CalendarUtils {
 
 
     public static String getMonth(String month) {
-        return null;
+        return Month.getMonth(month).toLowerCase();
+    }
+
+    public static String getUserTimeSpecs(long timeInMilliseconds) {
+
+        calendar.setTimeInMillis(timeInMilliseconds);
+        return getQuarter(calendar.get(Calendar.MONTH) + 1) + "_" + calendar.get(Calendar.YEAR);
     }
 
 
     public static String getQuarter(String month) {
-        return null;
+        int monthNum = Integer.parseInt(month);
+        return getQuarter(monthNum);
+    }
+
+    public static String getQuarter(int monthNum) {
+        if (monthNum <= 3) {
+            return "q1";
+        } else if (monthNum <= 6) {
+            return "q2";
+        } else if (monthNum <= 9) {
+            return "q3";
+        } else {
+            return "q4";
+        }
     }
 
     public static void main(String[] args) {
-        System.out.println(Month.getMonth("1"));
+        System.out.println(Month.getMonth("7"));
+        System.out.println(getQuarter("6"));
     }
 }

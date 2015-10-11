@@ -22,7 +22,7 @@ public class TimeZoneDB {
         this.timezoneDbKey = key;
     }
 
-    public String getTimezoneId(double latitude, double longitude){
+    public String getTimezoneId(double latitude, double longitude) {
 
         StringBuffer buf = new StringBuffer();
         try {
@@ -31,8 +31,8 @@ public class TimeZoneDB {
                     + "&key=" + timezoneDbKey);
 
             URLConnection con = url.openConnection();
-            con.setConnectTimeout(5000); // 5s
-            con.setReadTimeout(6000);
+            con.setConnectTimeout(15000); // 5s
+            con.setReadTimeout(16000);
             InputStream in = con.getInputStream();
             BufferedReader reader = new BufferedReader(new InputStreamReader(in));
 
@@ -42,10 +42,10 @@ public class TimeZoneDB {
             }
             reader.close();
 
-            int start = buf.indexOf("<gmtOffset>",0) + "<gmtOffset>".length();
-            int end = buf.indexOf("</gmtOffset>",0);
+            int start = buf.indexOf("<gmtOffset>", 0) + "<gmtOffset>".length();
+            int end = buf.indexOf("</gmtOffset>", 0);
 
-            return buf.substring(start,end);
+            return buf.substring(start, end);
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
@@ -56,9 +56,9 @@ public class TimeZoneDB {
         return null;
     }
 
-    public static void getGMTOffsets(){
+    public static void getGMTOffsets() {
 
-        String csvFile = "/home/abhishek/dstools/streaming-apps/apis/mooc_user.csv";
+        String csvFile = "/home/abhishek/dstools/streaming-apps/apis/mooc_world_user.csv";
         FileWriter writer = null;
         BufferedReader br = null;
         String line = "";
@@ -69,11 +69,13 @@ public class TimeZoneDB {
 
 
         try {
-            writer = new FileWriter("/home/abhishek/Downloads/offset3.csv");
+            writer = new FileWriter("/home/abhishek/Downloads/offset2.csv");
             br = new BufferedReader(new FileReader(csvFile));
-            int counter =0;
+            int counter = 0;
             int i = 0;
-            while(i < (4155 + 4750)){
+            int faults = 17;
+            br.readLine();
+            while (i < (faults + 7370)) {
                 br.readLine();
                 i++;
             }
@@ -84,18 +86,31 @@ public class TimeZoneDB {
                 String[] userData = line.split(cvsSplitBy);
                 Double lat, lng = null;
                 String tz = "UTC";
-                try{
-                    lat = Double.parseDouble(userData[1]);
-                    lng = Double.parseDouble(userData[2]);
-                    String gmtOffset = timeZoneDB.getTimezoneId(lat, lng);
-                    Float gmt = Float.parseFloat(gmtOffset);
-                    if(gmt > 0){
-                        tz  += "+";
+
+                if (userData.length != 3) {
+                    faults++;
+                    System.out.println("Faults = " + faults);
+                    System.out.println(line);
+                    tz = "NA";
+                    if (userData.length == 0) {
+                        continue;
                     }
-                    tz += String.format("%.2f", gmt / 3600f);
-                }catch (NumberFormatException ex){
-                    System.err.println("Error in line lat = " + userData[1] + ", and lng = " + userData[2]);
-                    tz += "-4.00";
+                } else {
+                    try {
+
+                        lat = Double.parseDouble(userData[1]);
+                        lng = Double.parseDouble(userData[2]);
+                        String gmtOffset = timeZoneDB.getTimezoneId(lat, lng);
+                        Float gmt = Float.parseFloat(gmtOffset);
+                        if (gmt >= 0) {
+                            tz += "+";
+                        }
+                        tz += String.format("%.2f", gmt / 3600f);
+                    } catch (NumberFormatException ex) {
+                        System.err.println("Error in line lat = " + userData[1] + ", and lng = " + userData[2]);
+                        tz += "-4.00";
+                        System.out.println("Processed Request = " + counter);
+                    }
                 }
 
                 writer.append(userData[0]);
@@ -104,7 +119,7 @@ public class TimeZoneDB {
                 writer.append('\n');
                 writer.flush();
                 counter++;
-                if(counter % 50 == 0){
+                if (counter % 50 == 0) {
                     System.out.println("Processed Request = " + counter);
                 }
             }
@@ -114,10 +129,10 @@ public class TimeZoneDB {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        } catch(Exception e){
+        } catch (Exception e) {
 
             e.printStackTrace();
-        }finally {
+        } finally {
             if (br != null) {
                 try {
                     br.close();
