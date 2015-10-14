@@ -606,7 +606,7 @@ public class MedlineCitation {
         private String season;
 
         /**
-         * @return a string represenation of the publication date. If there is a "medline date" then
+         * @return a string representation of the publication date. If there is a "medline date" then
          * it is returned. If not, then we check to see if there is a "year". If there is a
          * year, then we return a string formatted to "M/D/Y" depending on the availablity
          * of the month and day. If there is no year, then we check for a "season" returning
@@ -658,6 +658,15 @@ public class MedlineCitation {
                 return getSeason();
             } else {
                 return null;
+            }
+        }
+
+        @Override
+        public String getYear(){
+            if (getMedlineDate() != null && !getMedlineDate().isEmpty()) {
+                return getMedlineDate().split(" ")[0];
+            }else{
+                return super.getYear();
             }
         }
 
@@ -992,6 +1001,37 @@ public class MedlineCitation {
         @XStreamAlias("ISOAbbreviation")
         private String isoAbbreviation;
 
+        public Issn getIssn() {
+            return issn;
+        }
+
+        public void setIssn(Issn issn) {
+            this.issn = issn;
+        }
+
+        public JournalIssue getJournalIssue() {
+            return journalIssue;
+        }
+
+        public void setJournalIssue(JournalIssue journalIssue) {
+            this.journalIssue = journalIssue;
+        }
+
+        public String getTitle() {
+            return title;
+        }
+
+        public void setTitle(String title) {
+            this.title = title;
+        }
+
+        public String getIsoAbbreviation() {
+            return isoAbbreviation;
+        }
+
+        public void setIsoAbbreviation(String isoAbbreviation) {
+            this.isoAbbreviation = isoAbbreviation;
+        }
     }
 
     /**
@@ -1096,6 +1136,38 @@ public class MedlineCitation {
         private String issue;
         @XStreamAlias("PubDate")
         private PubDate pubDate;
+
+        public String getCitedMedium() {
+            return citedMedium;
+        }
+
+        public void setCitedMedium(String citedMedium) {
+            this.citedMedium = citedMedium;
+        }
+
+        public String getVolume() {
+            return volume;
+        }
+
+        public void setVolume(String volume) {
+            this.volume = volume;
+        }
+
+        public String getIssue() {
+            return issue;
+        }
+
+        public void setIssue(String issue) {
+            this.issue = issue;
+        }
+
+        public PubDate getPubDate() {
+            return pubDate;
+        }
+
+        public void setPubDate(PubDate pubDate) {
+            this.pubDate = pubDate;
+        }
     }
 
     /**
@@ -1297,6 +1369,14 @@ public class MedlineCitation {
     public static class AuthorList {
         @XStreamImplicit
         private List<Author> authors;
+
+        public List<Author> getAuthors() {
+            return authors;
+        }
+
+        public void setAuthors(List<Author> authors) {
+            this.authors = authors;
+        }
     }
 
     /**
@@ -1342,6 +1422,81 @@ public class MedlineCitation {
 
         @XStreamAlias("AffiliationInfo")
         private String affiliationInfo;
+
+        @XStreamAlias("Identifier")
+        private String identifier;
+
+        public String getValidYn() {
+            return validYn;
+        }
+
+        public void setValidYn(String validYn) {
+            this.validYn = validYn;
+        }
+
+        public String getLastName() {
+            return lastName;
+        }
+
+        public void setLastName(String lastName) {
+            this.lastName = lastName;
+        }
+
+        public String getForeName() {
+            return foreName;
+        }
+
+        public void setForeName(String foreName) {
+            this.foreName = foreName;
+        }
+
+        public String getInitials() {
+            return initials;
+        }
+
+        public void setInitials(String initials) {
+            this.initials = initials;
+        }
+
+        public String getSuffix() {
+            return suffix;
+        }
+
+        public void setSuffix(String suffix) {
+            this.suffix = suffix;
+        }
+
+        public String getCollectiveName() {
+            return collectiveName;
+        }
+
+        public void setCollectiveName(String collectiveName) {
+            this.collectiveName = collectiveName;
+        }
+
+        public NameId getNameId() {
+            return nameId;
+        }
+
+        public void setNameId(NameId nameId) {
+            this.nameId = nameId;
+        }
+
+        public String getAffiliationInfo() {
+            return affiliationInfo;
+        }
+
+        public void setAffiliationInfo(String affiliationInfo) {
+            this.affiliationInfo = affiliationInfo;
+        }
+
+        public String getIdentifier() {
+            return identifier;
+        }
+
+        public void setIdentifier(String identifier) {
+            this.identifier = identifier;
+        }
     }
 
     /**
@@ -1397,9 +1552,75 @@ public class MedlineCitation {
         @XStreamAlias("Affiliation")
         private String affiliation;
 
+        @XStreamAlias("AffiliationInfo")
+        private String affiliationInfo;
+
         @XStreamAlias("NameID")
         private NameId nameId;
 
+        public String getValidYn() {
+            return validYn;
+        }
+
+        public void setValidYn(String validYn) {
+            this.validYn = validYn;
+        }
+
+        public String getLastName() {
+            return lastName;
+        }
+
+        public void setLastName(String lastName) {
+            this.lastName = lastName;
+        }
+
+        public String getForeName() {
+            return foreName;
+        }
+
+        public void setForeName(String foreName) {
+            this.foreName = foreName;
+        }
+
+        public String getInitials() {
+            return initials;
+        }
+
+        public void setInitials(String initials) {
+            this.initials = initials;
+        }
+
+        public String getSuffix() {
+            return suffix;
+        }
+
+        public void setSuffix(String suffix) {
+            this.suffix = suffix;
+        }
+
+        public String getAffiliation() {
+            return affiliation;
+        }
+
+        public void setAffiliation(String affiliation) {
+            this.affiliation = affiliation;
+        }
+
+        public NameId getNameId() {
+            return nameId;
+        }
+
+        public void setNameId(NameId nameId) {
+            this.nameId = nameId;
+        }
+
+        public String getAffiliationInfo() {
+            return affiliationInfo;
+        }
+
+        public void setAffiliationInfo(String affiliationInfo) {
+            this.affiliationInfo = affiliationInfo;
+        }
     }
 
     /**
@@ -1758,6 +1979,38 @@ public class MedlineCitation {
 
         @XStreamAlias("ISSNLinking")
         private String issnLinking;
+
+        public String getCountry() {
+            return country;
+        }
+
+        public void setCountry(String country) {
+            this.country = country;
+        }
+
+        public String getMedlineTa() {
+            return medlineTa;
+        }
+
+        public void setMedlineTa(String medlineTa) {
+            this.medlineTa = medlineTa;
+        }
+
+        public String getNlmUniqueId() {
+            return nlmUniqueId;
+        }
+
+        public void setNlmUniqueId(String nlmUniqueId) {
+            this.nlmUniqueId = nlmUniqueId;
+        }
+
+        public String getIssnLinking() {
+            return issnLinking;
+        }
+
+        public void setIssnLinking(String issnLinking) {
+            this.issnLinking = issnLinking;
+        }
     }
 
     /**
@@ -1806,6 +2059,14 @@ public class MedlineCitation {
     public static class MeshHeadingList {
         @XStreamImplicit
         private List<MeshHeading> meshHeadings;
+
+        public List<MeshHeading> getMeshHeadings() {
+            return meshHeadings;
+        }
+
+        public void setMeshHeadings(List<MeshHeading> meshHeadings) {
+            this.meshHeadings = meshHeadings;
+        }
     }
 
     /**
@@ -1826,6 +2087,21 @@ public class MedlineCitation {
         @XStreamImplicit
         private List<MeshQualifierName> qualifierNames;
 
+        public MeshDescriptorName getDescriptorName() {
+            return descriptorName;
+        }
+
+        public void setDescriptorName(MeshDescriptorName descriptorName) {
+            this.descriptorName = descriptorName;
+        }
+
+        public List<MeshQualifierName> getQualifierNames() {
+            return qualifierNames;
+        }
+
+        public void setQualifierNames(List<MeshQualifierName> qualifierNames) {
+            this.qualifierNames = qualifierNames;
+        }
     }
 
     /**
@@ -1956,6 +2232,7 @@ public class MedlineCitation {
         public void setName(String name) {
             this.name = name;
         }
+
     }
 
     public static class MeshDescriptorNameConverter implements Converter {

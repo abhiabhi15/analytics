@@ -1,0 +1,3006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MedlineCitationSet PUBLIC "-//NLM//DTD Medline Citation, 1st January, 2011//EN"
+                                    "http://www.nlm.nih.gov/databases/dtd/nlmmedlinecitationset_110101.dtd">
+<MedlineCitationSet>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+    <PMID Version="1">10540283</PMID>
+    <DateCreated>
+        <Year>1999</Year>
+        <Month>12</Month>
+        <Day>17</Day>
+    </DateCreated>
+    <DateCompleted>
+        <Year>1999</Year>
+        <Month>12</Month>
+        <Day>17</Day>
+    </DateCompleted>
+    <DateRevised>
+        <Year>2006</Year>
+        <Month>11</Month>
+        <Day>15</Day>
+    </DateRevised>
+    <Article PubModel="Print">
+        <Journal>
+            <ISSN IssnType="Print">0950-382X</ISSN>
+            <JournalIssue CitedMedium="Print">
+                <Volume>34</Volume>
+                <Issue>1</Issue>
+                <PubDate>
+                    <Year>1999</Year>
+                    <Month>Oct</Month>
+                </PubDate>
+            </JournalIssue>
+            <Title>Molecular microbiology</Title>
+            <ISOAbbreviation>Mol. Microbiol.</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Title 1</ArticleTitle>
+        <Pagination>
+            <MedlinePgn>24-36</MedlinePgn>
+        </Pagination>
+        <Abstract>
+            <AbstractText>Abstract 1</AbstractText>
+        </Abstract>
+        <Affiliation>Department of Molecular Cell Physiology, Faculty of Biology, BioCentrum Amsterdam, Vrije Universiteit, De Boelelaan 1087, NL-1081 HV Amsterdam, The Netherlands.</Affiliation>
+        <AuthorList CompleteYN="Y">
+            <Author ValidYN="Y">
+                <LastName>Saunders</LastName>
+                <ForeName>N F</ForeName>
+                <Initials>NF</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Houben</LastName>
+                <ForeName>E N</ForeName>
+                <Initials>EN</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Koefoed</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>de Weert</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Reijnders</LastName>
+                <ForeName>W N</ForeName>
+                <Initials>WN</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Westerhoff</LastName>
+                <ForeName>H V</ForeName>
+                <Initials>HV</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>De Boer</LastName>
+                <ForeName>A P</ForeName>
+                <Initials>AP</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Van Spanning</LastName>
+                <ForeName>R J</ForeName>
+                <Initials>RJ</Initials>
+            </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <DataBankList CompleteYN="Y">
+            <DataBank>
+                <DataBankName>GENBANK</DataBankName>
+                <AccessionNumberList>
+                    <AccessionNumber>AF005358</AccessionNumber>
+                    <AccessionNumber>U47133</AccessionNumber>
+                    <AccessionNumber>U94899</AccessionNumber>
+                </AccessionNumberList>
+            </DataBank>
+            <DataBank>
+                <DataBankName>PDB</DataBankName>
+                <AccessionNumberList>
+                    <AccessionNumber>P33943</AccessionNumber>
+                </AccessionNumberList>
+            </DataBank>
+        </DataBankList>
+        <PublicationTypeList>
+            <PublicationType>Journal Article</PublicationType>
+            <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+        </PublicationTypeList>
+    </Article>
+    <MedlineJournalInfo>
+        <Country>ENGLAND</Country>
+        <MedlineTA>Mol Microbiol</MedlineTA>
+        <NlmUniqueID>8712028</NlmUniqueID>
+        <ISSNLinking>0950-382X</ISSNLinking>
+    </MedlineJournalInfo>
+    <ChemicalList>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Bacterial Proteins</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>DNA-Binding Proteins</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Membrane Proteins</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>NNR protein, Paracoccus denitrificans</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>NirI protein, Paracoccus denitrificans</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>NirX protein, Paracoccus denitrificans</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Transcription Factors</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>EC 1.7.-</RegistryNumber>
+            <NameOfSubstance>Nitrite Reductases</NameOfSubstance>
+        </Chemical>
+    </ChemicalList>
+    <CitationSubset>IM</CitationSubset>
+    <MeshHeadingList>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Amino Acid Sequence</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Bacterial Proteins</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Base Sequence</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">DNA-Binding Proteins</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Gene Expression Regulation, Bacterial</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Genetic Complementation Test</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Membrane Proteins</DescriptorName>
+            <QualifierName MajorTopicYN="N">chemistry</QualifierName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Molecular Sequence Data</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Multigene Family</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Mutation</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Nitrite Reductases</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Paracoccus denitrificans</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Protein Structure, Secondary</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Sequence Homology, Amino Acid</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Transcription Factors</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Transcription, Genetic</DescriptorName>
+        </MeshHeading>
+    </MeshHeadingList>
+</MedlineCitation>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+    <PMID Version="1">10612833</PMID>
+    <DateCreated>
+        <Year>2000</Year>
+        <Month>01</Month>
+        <Day>20</Day>
+    </DateCreated>
+    <DateCompleted>
+        <Year>2000</Year>
+        <Month>01</Month>
+        <Day>20</Day>
+    </DateCompleted>
+    <DateRevised>
+        <Year>2009</Year>
+        <Month>11</Month>
+        <Day>19</Day>
+    </DateRevised>
+    <Article PubModel="Print">
+        <Journal>
+            <ISSN IssnType="Electronic">1098-1004</ISSN>
+            <JournalIssue CitedMedium="Internet">
+                <Volume>15</Volume>
+                <Issue>1</Issue>
+                <PubDate>
+                    <Year>2000</Year>
+                    <Month>Jan</Month>
+                </PubDate>
+            </JournalIssue>
+            <Title>Human mutation</Title>
+            <ISOAbbreviation>Hum. Mutat.</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Title 2</ArticleTitle>
+        <Pagination>
+            <MedlinePgn>114-5</MedlinePgn>
+        </Pagination>
+        <Abstract>
+            <AbstractText>Abstract 2</AbstractText>
+            <CopyrightInformation>Copyright 2000 Wiley-Liss, Inc.</CopyrightInformation>
+        </Abstract>
+        <Affiliation>Center for Hereditary Communication Disorders, Boys Town National Research Hospital Omaha, NE, USA. ortend@boystown.org</Affiliation>
+        <AuthorList CompleteYN="Y">
+            <Author ValidYN="Y">
+                <LastName>Orten</LastName>
+                <ForeName>D J</ForeName>
+                <Initials>DJ</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Weston</LastName>
+                <ForeName>M D</ForeName>
+                <Initials>MD</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kelley</LastName>
+                <ForeName>P M</ForeName>
+                <Initials>PM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Cremers</LastName>
+                <ForeName>C W</ForeName>
+                <Initials>CW</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wagenaar</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Jacobson</LastName>
+                <ForeName>S G</ForeName>
+                <Initials>SG</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kimberling</LastName>
+                <ForeName>W J</ForeName>
+                <Initials>WJ</Initials>
+            </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <GrantList CompleteYN="N">
+            <Grant>
+                <GrantID>DC00677</GrantID>
+                <Acronym>DC</Acronym>
+                <Agency>NIDCD NIH HHS</Agency>
+                <Country>United States</Country>
+            </Grant>
+            <Grant>
+                <GrantID>DC00982</GrantID>
+                <Acronym>DC</Acronym>
+                <Agency>NIDCD NIH HHS</Agency>
+                <Country>United States</Country>
+            </Grant>
+            <Grant>
+                <GrantID>DC03351</GrantID>
+                <Acronym>DC</Acronym>
+                <Agency>NIDCD NIH HHS</Agency>
+                <Country>United States</Country>
+            </Grant>
+        </GrantList>
+        <PublicationTypeList>
+            <PublicationType>Corrected and Republished Article</PublicationType>
+            <PublicationType>Journal Article</PublicationType>
+            <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            <PublicationType>Research Support, U.S. Gov't, P.H.S.</PublicationType>
+        </PublicationTypeList>
+    </Article>
+    <MedlineJournalInfo>
+        <Country>UNITED STATES</Country>
+        <MedlineTA>Hum Mutat</MedlineTA>
+        <NlmUniqueID>9215429</NlmUniqueID>
+        <ISSNLinking>1059-7794</ISSNLinking>
+    </MedlineJournalInfo>
+    <ChemicalList>
+        <Chemical>
+            <RegistryNumber>EC 3.6.1.33</RegistryNumber>
+            <NameOfSubstance>myosin VIIa</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>EC 3.6.4.1</RegistryNumber>
+            <NameOfSubstance>Myosins</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>EC 3.6.4.2</RegistryNumber>
+            <NameOfSubstance>Dyneins</NameOfSubstance>
+        </Chemical>
+    </ChemicalList>
+    <CitationSubset>IM</CitationSubset>
+    <CommentsCorrectionsList>
+        <CommentsCorrections RefType="RepublishedFrom">
+            <RefSource>Hum Mutat. 1999 Oct;14(4):354</RefSource>
+            <PMID Version="1">10502787</PMID>
+        </CommentsCorrections>
+    </CommentsCorrectionsList>
+    <MeshHeadingList>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Amino Acid Substitution</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Cell Line</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Dyneins</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Gene Expression Regulation</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Hearing Loss, Sensorineural</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Hela Cells</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Linkage Disequilibrium</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Mutation, Missense</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Myosins</DescriptorName>
+            <QualifierName MajorTopicYN="N">biosynthesis</QualifierName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Pedigree</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Pigment Epithelium of Eye</DescriptorName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Polymerase Chain Reaction</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Polymorphism, Restriction Fragment Length</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Promoter Regions, Genetic</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Retinitis Pigmentosa</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Syndrome</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Vestibular Diseases</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+    </MeshHeadingList>
+</MedlineCitation>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+    <PMID Version="1">10737756</PMID>
+    <DateCreated>
+        <Year>2000</Year>
+        <Month>04</Month>
+        <Day>13</Day>
+    </DateCreated>
+    <DateCompleted>
+        <Year>2000</Year>
+        <Month>04</Month>
+        <Day>13</Day>
+    </DateCompleted>
+    <DateRevised>
+        <Year>2004</Year>
+        <Month>11</Month>
+        <Day>17</Day>
+    </DateRevised>
+    <Article PubModel="Print">
+        <Journal>
+            <ISSN IssnType="Print">0022-2623</ISSN>
+            <JournalIssue CitedMedium="Print">
+                <Volume>43</Volume>
+                <Issue>6</Issue>
+                <PubDate>
+                    <Year>2000</Year>
+                    <Month>Mar</Month>
+                    <Day>23</Day>
+                </PubDate>
+            </JournalIssue>
+            <Title>Journal of medicinal chemistry</Title>
+            <ISOAbbreviation>J. Med. Chem.</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Title 3</ArticleTitle>
+        <Pagination>
+            <MedlinePgn>1234-41</MedlinePgn>
+        </Pagination>
+        <Abstract>
+            <AbstractText>Abstract 3</AbstractText>
+        </Abstract>
+        <Affiliation>Merck Research Laboratories, P.O. Box 2000, Rahway, New Jersey 07065, and Merck, Sharp &amp; Dohme, Neuroscience Research Centre, Terlings Park, Eastwick Road, Harlow, Essex CM20 2QR, U.K. jeffrey_hale@merck.com</Affiliation>
+        <AuthorList CompleteYN="Y">
+            <Author ValidYN="Y">
+                <LastName>Hale</LastName>
+                <ForeName>J J</ForeName>
+                <Initials>JJ</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Mills</LastName>
+                <ForeName>S G</ForeName>
+                <Initials>SG</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>MacCoss</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Dorn</LastName>
+                <ForeName>C P</ForeName>
+                <Initials>CP</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Finke</LastName>
+                <ForeName>P E</ForeName>
+                <Initials>PE</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Budhu</LastName>
+                <ForeName>R J</ForeName>
+                <Initials>RJ</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Reamer</LastName>
+                <ForeName>R A</ForeName>
+                <Initials>RA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Huskey</LastName>
+                <ForeName>S E</ForeName>
+                <Initials>SE</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Luffer-Atlas</LastName>
+                <ForeName>D</ForeName>
+                <Initials>D</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Dean</LastName>
+                <ForeName>B J</ForeName>
+                <Initials>BJ</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>McGowan</LastName>
+                <ForeName>E M</ForeName>
+                <Initials>EM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Feeney</LastName>
+                <ForeName>W P</ForeName>
+                <Initials>WP</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Chiu</LastName>
+                <ForeName>S H</ForeName>
+                <Initials>SH</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Cascieri</LastName>
+                <ForeName>M A</ForeName>
+                <Initials>MA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Chicchi</LastName>
+                <ForeName>G G</ForeName>
+                <Initials>GG</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kurtz</LastName>
+                <ForeName>M M</ForeName>
+                <Initials>MM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Sadowski</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Ber</LastName>
+                <ForeName>E</ForeName>
+                <Initials>E</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Tattersall</LastName>
+                <ForeName>F D</ForeName>
+                <Initials>FD</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Rupniak</LastName>
+                <ForeName>N M</ForeName>
+                <Initials>NM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Williams</LastName>
+                <ForeName>A R</ForeName>
+                <Initials>AR</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Rycroft</LastName>
+                <ForeName>W</ForeName>
+                <Initials>W</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Hargreaves</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Metzger</LastName>
+                <ForeName>J M</ForeName>
+                <Initials>JM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>MacIntyre</LastName>
+                <ForeName>D E</ForeName>
+                <Initials>DE</Initials>
+            </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+            <PublicationType>Journal Article</PublicationType>
+        </PublicationTypeList>
+    </Article>
+    <MedlineJournalInfo>
+        <Country>UNITED STATES</Country>
+        <MedlineTA>J Med Chem</MedlineTA>
+        <NlmUniqueID>9716531</NlmUniqueID>
+        <ISSNLinking>0022-2623</ISSNLinking>
+    </MedlineJournalInfo>
+    <ChemicalList>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>2-(1-(3,5-bis(trifluoromethyl)phenyl)ethoxy)-3-(4-fluoro)phenyl-4-(5-(2-phosphoryl-3-oxo-4H,-1,2,4-triazolo))methylmorpholine, bis(N-methylglucamine) salt</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Acetals</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Anti-Inflammatory Agents, Non-Steroidal</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Antiemetics</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Antineoplastic Agents</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>L 754030</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Morpholines</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Prodrugs</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Receptors, Neurokinin-1</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>15663-27-1</RegistryNumber>
+            <NameOfSubstance>Cisplatin</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>7732-18-5</RegistryNumber>
+            <NameOfSubstance>Water</NameOfSubstance>
+        </Chemical>
+    </ChemicalList>
+    <CitationSubset>IM</CitationSubset>
+    <MeshHeadingList>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Acetals</DescriptorName>
+            <QualifierName MajorTopicYN="Y">chemical synthesis</QualifierName>
+            <QualifierName MajorTopicYN="N">chemistry</QualifierName>
+            <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Anti-Inflammatory Agents, Non-Steroidal</DescriptorName>
+            <QualifierName MajorTopicYN="Y">chemical synthesis</QualifierName>
+            <QualifierName MajorTopicYN="N">chemistry</QualifierName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Antiemetics</DescriptorName>
+            <QualifierName MajorTopicYN="Y">chemical synthesis</QualifierName>
+            <QualifierName MajorTopicYN="N">chemistry</QualifierName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Antineoplastic Agents</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Cisplatin</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Dogs</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Drug Evaluation, Preclinical</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Ferrets</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Guinea Pigs</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Morpholines</DescriptorName>
+            <QualifierName MajorTopicYN="Y">chemical synthesis</QualifierName>
+            <QualifierName MajorTopicYN="N">chemistry</QualifierName>
+            <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Prodrugs</DescriptorName>
+            <QualifierName MajorTopicYN="Y">chemical synthesis</QualifierName>
+            <QualifierName MajorTopicYN="N">chemistry</QualifierName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            <QualifierName MajorTopicYN="N">pharmacology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Rats</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Receptors, Neurokinin-1</DescriptorName>
+            <QualifierName MajorTopicYN="Y">antagonists &amp; inhibitors</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Solubility</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Stereoisomerism</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Structure-Activity Relationship</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Vomiting</DescriptorName>
+            <QualifierName MajorTopicYN="N">chemically induced</QualifierName>
+            <QualifierName MajorTopicYN="N">drug therapy</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Water</DescriptorName>
+        </MeshHeading>
+    </MeshHeadingList>
+</MedlineCitation>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+    <PMID Version="1">10854512</PMID>
+    <DateCreated>
+        <Year>2000</Year>
+        <Month>06</Month>
+        <Day>29</Day>
+    </DateCreated>
+    <DateCompleted>
+        <Year>2000</Year>
+        <Month>06</Month>
+        <Day>29</Day>
+    </DateCompleted>
+    <DateRevised>
+        <Year>2004</Year>
+        <Month>11</Month>
+        <Day>17</Day>
+    </DateRevised>
+    <Article PubModel="Print-Electronic">
+        <Journal>
+            <ISSN IssnType="Electronic">1432-2218</ISSN>
+            <JournalIssue CitedMedium="Internet">
+                <Volume>14</Volume>
+                <Issue>1</Issue>
+                <PubDate>
+                    <Year>2000</Year>
+                    <Month>Jan</Month>
+                </PubDate>
+            </JournalIssue>
+            <Title>Surgical endoscopy</Title>
+            <ISOAbbreviation>Surg Endosc</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Title 4</ArticleTitle>
+        <Pagination>
+            <MedlinePgn>86</MedlinePgn>
+        </Pagination>
+        <Abstract>
+            <AbstractText>Abstract 4</AbstractText>
+        </Abstract>
+        <Affiliation>Division of Gastroenterology, ChangHua Christian Medical Center, ChangHua, Taiwan.</Affiliation>
+        <AuthorList CompleteYN="Y">
+            <Author ValidYN="Y">
+                <LastName>Soon</LastName>
+                <ForeName>M S</ForeName>
+                <Initials>MS</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Lin</LastName>
+                <ForeName>O S</ForeName>
+                <Initials>OS</Initials>
+            </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+            <PublicationType>Case Reports</PublicationType>
+            <PublicationType>Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+            <Year>1999</Year>
+            <Month>11</Month>
+            <Day>25</Day>
+        </ArticleDate>
+    </Article>
+    <MedlineJournalInfo>
+        <Country>UNITED STATES</Country>
+        <MedlineTA>Surg Endosc</MedlineTA>
+        <NlmUniqueID>8806653</NlmUniqueID>
+        <ISSNLinking>0930-2794</ISSNLinking>
+    </MedlineJournalInfo>
+    <CitationSubset>IM</CitationSubset>
+    <MeshHeadingList>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Duodenal Neoplasms</DescriptorName>
+            <QualifierName MajorTopicYN="Y">complications</QualifierName>
+            <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            <QualifierName MajorTopicYN="N">surgery</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Duodenitis</DescriptorName>
+            <QualifierName MajorTopicYN="Y">etiology</QualifierName>
+            <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            <QualifierName MajorTopicYN="N">surgery</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Endoscopy, Gastrointestinal</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Endosonography</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Fibroma</DescriptorName>
+            <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            <QualifierName MajorTopicYN="N">surgery</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Gastric Mucosa</DescriptorName>
+            <QualifierName MajorTopicYN="N">pathology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Gastrointestinal Hemorrhage</DescriptorName>
+            <QualifierName MajorTopicYN="N">etiology</QualifierName>
+            <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            <QualifierName MajorTopicYN="N">surgery</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Intestinal Polyps</DescriptorName>
+            <QualifierName MajorTopicYN="Y">complications</QualifierName>
+            <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            <QualifierName MajorTopicYN="N">surgery</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Middle Aged</DescriptorName>
+        </MeshHeading>
+    </MeshHeadingList>
+</MedlineCitation>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+    <PMID Version="1">10972993</PMID>
+    <DateCreated>
+        <Year>2000</Year>
+        <Month>09</Month>
+        <Day>26</Day>
+    </DateCreated>
+    <DateCompleted>
+        <Year>2000</Year>
+        <Month>09</Month>
+        <Day>26</Day>
+    </DateCompleted>
+    <DateRevised>
+        <Year>2008</Year>
+        <Month>11</Month>
+        <Day>21</Day>
+    </DateRevised>
+    <Article PubModel="Print">
+        <Journal>
+            <ISSN IssnType="Print">0899-1987</ISSN>
+            <JournalIssue CitedMedium="Print">
+                <Volume>28</Volume>
+                <Issue>4</Issue>
+                <PubDate>
+                    <Year>2000</Year>
+                    <Month>Aug</Month>
+                </PubDate>
+            </JournalIssue>
+            <Title>Molecular carcinogenesis</Title>
+            <ISOAbbreviation>Mol. Carcinog.</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Title 5</ArticleTitle>
+        <Pagination>
+            <MedlinePgn>236-46</MedlinePgn>
+        </Pagination>
+        <Abstract>
+            <AbstractText>Abstract 5</AbstractText>
+            <CopyrightInformation>Copyright 2000 Wiley-Liss, Inc.</CopyrightInformation>
+        </Abstract>
+        <Affiliation>Department of Biology, Tufts University, Medford, Massachusetts, USA.</Affiliation>
+        <AuthorList CompleteYN="Y">
+            <Author ValidYN="Y">
+                <LastName>Rauh-Adelmann</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Lau</LastName>
+                <ForeName>K M</ForeName>
+                <Initials>KM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Sabeti</LastName>
+                <ForeName>N</ForeName>
+                <Initials>N</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Long</LastName>
+                <ForeName>J P</ForeName>
+                <Initials>JP</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Mok</LastName>
+                <ForeName>S C</ForeName>
+                <Initials>SC</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Ho</LastName>
+                <ForeName>S M</ForeName>
+                <Initials>SM</Initials>
+            </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <GrantList CompleteYN="N">
+            <Grant>
+                <GrantID>C69453</GrantID>
+                <Agency>PHS HHS</Agency>
+                <Country>United States</Country>
+            </Grant>
+            <Grant>
+                <GrantID>CA15576</GrantID>
+                <Acronym>CA</Acronym>
+                <Agency>NCI NIH HHS</Agency>
+                <Country>United States</Country>
+            </Grant>
+            <Grant>
+                <GrantID>CA62269</GrantID>
+                <Acronym>CA</Acronym>
+                <Agency>NCI NIH HHS</Agency>
+                <Country>United States</Country>
+            </Grant>
+        </GrantList>
+        <PublicationTypeList>
+            <PublicationType>Journal Article</PublicationType>
+            <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            <PublicationType>Research Support, U.S. Gov't, P.H.S.</PublicationType>
+        </PublicationTypeList>
+    </Article>
+    <MedlineJournalInfo>
+        <Country>UNITED STATES</Country>
+        <MedlineTA>Mol Carcinog</MedlineTA>
+        <NlmUniqueID>8811105</NlmUniqueID>
+        <ISSNLinking>0899-1987</ISSNLinking>
+    </MedlineJournalInfo>
+    <ChemicalList>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>BRCA1 Protein</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>BRCA2 Protein</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Neoplasm Proteins</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>RNA, Messenger</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Transcription Factors</NameOfSubstance>
+        </Chemical>
+    </ChemicalList>
+    <CitationSubset>IM</CitationSubset>
+    <MeshHeadingList>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">BRCA1 Protein</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">BRCA2 Protein</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Breast</DescriptorName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Breast Neoplasms</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Cell Line</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Epithelial Cells</DescriptorName>
+            <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Exons</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Gene Expression Regulation, Neoplastic</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Genes, BRCA1</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Genetic Variation</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Neoplasm Proteins</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Ovarian Neoplasms</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Prostatic Neoplasms</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">RNA, Messenger</DescriptorName>
+            <QualifierName MajorTopicYN="N">genetics</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Sequence Deletion</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Transcription Factors</DescriptorName>
+            <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Transcription, Genetic</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Tumor Cells, Cultured</DescriptorName>
+        </MeshHeading>
+    </MeshHeadingList>
+</MedlineCitation>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+    <PMID Version="1">11025314</PMID>
+    <DateCreated>
+        <Year>2001</Year>
+        <Month>01</Month>
+        <Day>05</Day>
+    </DateCreated>
+    <DateCompleted>
+        <Year>2001</Year>
+        <Month>01</Month>
+        <Day>05</Day>
+    </DateCompleted>
+    <DateRevised>
+        <Year>2006</Year>
+        <Month>11</Month>
+        <Day>15</Day>
+    </DateRevised>
+    <Article PubModel="Print">
+        <Journal>
+            <ISSN IssnType="Print">0108-2701</ISSN>
+            <JournalIssue CitedMedium="Print">
+                <Volume>56 ( Pt 10)</Volume>
+                <PubDate>
+                    <Year>2000</Year>
+                    <Month>Oct</Month>
+                </PubDate>
+            </JournalIssue>
+            <Title>Acta crystallographica. Section C, Crystal structure communications</Title>
+            <ISOAbbreviation>Acta Crystallogr C</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Title 6</ArticleTitle>
+        <Pagination>
+            <MedlinePgn>1247-50</MedlinePgn>
+        </Pagination>
+        <Abstract>
+            <AbstractText>Abstract 6</AbstractText>
+        </Abstract>
+        <Affiliation>College of Pharmacy, Chungnam National University, Taejeon 305-764, Korea. parki@cnu.ac.kr.</Affiliation>
+        <AuthorList CompleteYN="Y">
+            <Author ValidYN="Y">
+                <LastName>Park</LastName>
+                <ForeName>K L</ForeName>
+                <Initials>KL</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Moon</LastName>
+                <ForeName>B G</ForeName>
+                <Initials>BG</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Jung</LastName>
+                <ForeName>S H</ForeName>
+                <Initials>SH</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kim</LastName>
+                <ForeName>J G</ForeName>
+                <Initials>JG</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Suh</LastName>
+                <ForeName>I H</ForeName>
+                <Initials>IH</Initials>
+            </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+            <PublicationType>Journal Article</PublicationType>
+            <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+        </PublicationTypeList>
+    </Article>
+    <MedlineJournalInfo>
+        <Country>DENMARK</Country>
+        <MedlineTA>Acta Crystallogr C</MedlineTA>
+        <NlmUniqueID>8305826</NlmUniqueID>
+        <ISSNLinking>0108-2701</ISSNLinking>
+    </MedlineJournalInfo>
+    <ChemicalList>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>1-(1-(4-aminobenzoyl)indoline-5-sulfonyl)-4-phenyl-4,5-dihydroimidazol-2-one</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Antineoplastic Agents</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Imidazoles</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Sulfones</NameOfSubstance>
+        </Chemical>
+    </ChemicalList>
+    <CitationSubset>IM</CitationSubset>
+    <MeshHeadingList>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Antineoplastic Agents</DescriptorName>
+            <QualifierName MajorTopicYN="Y">chemistry</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Crystallography, X-Ray</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Hydrogen Bonding</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Imidazoles</DescriptorName>
+            <QualifierName MajorTopicYN="Y">chemistry</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Models, Molecular</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Molecular Conformation</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Stereoisomerism</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Sulfones</DescriptorName>
+            <QualifierName MajorTopicYN="Y">chemistry</QualifierName>
+        </MeshHeading>
+    </MeshHeadingList>
+</MedlineCitation>
+<MedlineCitation Owner="NLM" Status="In-Process">
+    <PMID Version="1">11056631</PMID>
+    <DateCreated>
+        <Year>2000</Year>
+        <Month>12</Month>
+        <Day>01</Day>
+    </DateCreated>
+    <Article PubModel="Print">
+        <Journal>
+            <ISSN IssnType="Print">0031-9007</ISSN>
+            <JournalIssue CitedMedium="Print">
+                <Volume>85</Volume>
+                <Issue>19</Issue>
+                <PubDate>
+                    <Year>2000</Year>
+                    <Month>Nov</Month>
+                    <Day>6</Day>
+                </PubDate>
+            </JournalIssue>
+            <Title>Physical review letters</Title>
+            <ISOAbbreviation>Phys. Rev. Lett.</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Title 7</ArticleTitle>
+        <Pagination>
+            <MedlinePgn>4088-91</MedlinePgn>
+        </Pagination>
+        <Abstract>
+            <AbstractText>Abstract 7</AbstractText>
+        </Abstract>
+        <Affiliation>IBM Watson Research Center, P.O. Box 218, Yorktown Heights, New York 10598, USA.</Affiliation>
+        <AuthorList CompleteYN="Y">
+            <Author ValidYN="Y">
+                <LastName>Liu</LastName>
+                <ForeName>X H</ForeName>
+                <Initials>XH</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Ross</LastName>
+                <ForeName>F M</ForeName>
+                <Initials>FM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Schwarz</LastName>
+                <ForeName>K W</ForeName>
+                <Initials>KW</Initials>
+            </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+            <PublicationType>Journal Article</PublicationType>
+        </PublicationTypeList>
+    </Article>
+    <MedlineJournalInfo>
+        <Country>UNITED STATES</Country>
+        <MedlineTA>Phys Rev Lett</MedlineTA>
+        <NlmUniqueID>0401141</NlmUniqueID>
+        <ISSNLinking>0031-9007</ISSNLinking>
+    </MedlineJournalInfo>
+    <CitationSubset>IM</CitationSubset>
+</MedlineCitation>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+    <PMID Version="1">11034741</PMID>
+    <DateCreated>
+        <Year>2001</Year>
+        <Month>01</Month>
+        <Day>26</Day>
+    </DateCreated>
+    <DateCompleted>
+        <Year>2001</Year>
+        <Month>08</Month>
+        <Day>02</Day>
+    </DateCompleted>
+    <DateRevised>
+        <Year>2007</Year>
+        <Month>11</Month>
+        <Day>15</Day>
+    </DateRevised>
+    <Article PubModel="Print">
+        <Journal>
+            <ISSN IssnType="Electronic">1469-493X</ISSN>
+            <JournalIssue CitedMedium="Internet">
+                <Issue>4</Issue>
+                <PubDate>
+                    <Year>2000</Year>
+                </PubDate>
+            </JournalIssue>
+            <Title>Cochrane database of systematic reviews (Online)</Title>
+            <ISOAbbreviation>Cochrane Database Syst Rev</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Title 8</ArticleTitle>
+        <Pagination>
+            <MedlinePgn>CD002020</MedlinePgn>
+        </Pagination>
+        <Abstract>
+            <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Abstract 8a</AbstractText>
+            <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">Abstract 8b</AbstractText>
+            <AbstractText Label="SEARCH STRATEGY" NlmCategory="METHODS">Abstract 8c</AbstractText>
+            <AbstractText Label="SELECTION CRITERIA" NlmCategory="METHODS">Abstract 8d</AbstractText>
+            <AbstractText Label="DATA COLLECTION AND ANALYSIS" NlmCategory="METHODS">Abstract 8e</AbstractText>
+            <AbstractText Label="MAIN RESULTS" NlmCategory="RESULTS">Abstract 8f</AbstractText>
+            <AbstractText Label="REVIEWER'S CONCLUSIONS" NlmCategory="CONCLUSIONS">Abstract 8g</AbstractText>
+        </Abstract>
+        <Affiliation>Health Services Research Unit, University of Oxford, Institute of Health Sciences, Old Road, Oxford, UK, OX3 7LF. esther.coren@dphpc.ox.ac.uk</Affiliation>
+        <AuthorList CompleteYN="Y">
+            <Author ValidYN="Y">
+                <LastName>Barlow</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Coren</LastName>
+                <ForeName>E</ForeName>
+                <Initials>E</Initials>
+            </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+            <PublicationType>Journal Article</PublicationType>
+            <PublicationType>Review</PublicationType>
+        </PublicationTypeList>
+    </Article>
+    <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>Cochrane Database Syst Rev</MedlineTA>
+        <NlmUniqueID>100909747</NlmUniqueID>
+        <ISSNLinking>1361-6137</ISSNLinking>
+    </MedlineJournalInfo>
+    <CitationSubset>IM</CitationSubset>
+    <CommentsCorrectionsList>
+        <CommentsCorrections RefType="UpdateIn">
+            <RefSource>Cochrane Database Syst Rev. 2001;(2):CD002020</RefSource>
+            <PMID Version="1">11406024</PMID>
+        </CommentsCorrections>
+    </CommentsCorrectionsList>
+    <MeshHeadingList>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Anxiety</DescriptorName>
+            <QualifierName MajorTopicYN="N">therapy</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Depression</DescriptorName>
+            <QualifierName MajorTopicYN="N">therapy</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Maternal Behavior</DescriptorName>
+            <QualifierName MajorTopicYN="Y">psychology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Mother-Child Relations</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Parenting</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Program Evaluation</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Randomized Controlled Trials as Topic</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Self Concept</DescriptorName>
+        </MeshHeading>
+    </MeshHeadingList>
+    <NumberOfReferences>99</NumberOfReferences>
+</MedlineCitation>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+    <PMID Version="1">11237011</PMID>
+    <DateCreated>
+        <Year>2001</Year>
+        <Month>03</Month>
+        <Day>09</Day>
+    </DateCreated>
+    <DateCompleted>
+        <Year>2001</Year>
+        <Month>03</Month>
+        <Day>22</Day>
+    </DateCompleted>
+    <DateRevised>
+        <Year>2006</Year>
+        <Month>11</Month>
+        <Day>15</Day>
+    </DateRevised>
+    <Article PubModel="Print">
+        <Journal>
+            <ISSN IssnType="Print">0028-0836</ISSN>
+            <JournalIssue CitedMedium="Print">
+                <Volume>409</Volume>
+                <Issue>6822</Issue>
+                <PubDate>
+                    <Year>2001</Year>
+                    <Month>Feb</Month>
+                    <Day>15</Day>
+                </PubDate>
+            </JournalIssue>
+            <Title>Nature</Title>
+            <ISOAbbreviation>Nature</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Title 9</ArticleTitle>
+        <Pagination>
+            <MedlinePgn>860-921</MedlinePgn>
+        </Pagination>
+        <Abstract>
+            <AbstractText>Abstract 9</AbstractText>
+        </Abstract>
+        <Affiliation>Whitehead Institute for Biomedical Research, Center for Genome Research, Cambridge, Massachusetts 02142, USA. lander@genome.wi.mit.edu</Affiliation>
+        <AuthorList CompleteYN="Y">
+            <Author ValidYN="Y">
+                <LastName>Lander</LastName>
+                <ForeName>E S</ForeName>
+                <Initials>ES</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Linton</LastName>
+                <ForeName>L M</ForeName>
+                <Initials>LM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Birren</LastName>
+                <ForeName>B</ForeName>
+                <Initials>B</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Nusbaum</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Zody</LastName>
+                <ForeName>M C</ForeName>
+                <Initials>MC</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Baldwin</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Devon</LastName>
+                <ForeName>K</ForeName>
+                <Initials>K</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Dewar</LastName>
+                <ForeName>K</ForeName>
+                <Initials>K</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Doyle</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>FitzHugh</LastName>
+                <ForeName>W</ForeName>
+                <Initials>W</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Funke</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Gage</LastName>
+                <ForeName>D</ForeName>
+                <Initials>D</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Harris</LastName>
+                <ForeName>K</ForeName>
+                <Initials>K</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Heaford</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Howland</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kann</LastName>
+                <ForeName>L</ForeName>
+                <Initials>L</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Lehoczky</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>LeVine</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>McEwan</LastName>
+                <ForeName>P</ForeName>
+                <Initials>P</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>McKernan</LastName>
+                <ForeName>K</ForeName>
+                <Initials>K</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Meldrim</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Mesirov</LastName>
+                <ForeName>J P</ForeName>
+                <Initials>JP</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Miranda</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Morris</LastName>
+                <ForeName>W</ForeName>
+                <Initials>W</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Naylor</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Raymond</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Rosetti</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Santos</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Sheridan</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Sougnez</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Stange-Thomann</LastName>
+                <ForeName>N</ForeName>
+                <Initials>N</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Stojanovic</LastName>
+                <ForeName>N</ForeName>
+                <Initials>N</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Subramanian</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wyman</LastName>
+                <ForeName>D</ForeName>
+                <Initials>D</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Rogers</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Sulston</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Ainscough</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Beck</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Bentley</LastName>
+                <ForeName>D</ForeName>
+                <Initials>D</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Burton</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Clee</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Carter</LastName>
+                <ForeName>N</ForeName>
+                <Initials>N</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Coulson</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Deadman</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Deloukas</LastName>
+                <ForeName>P</ForeName>
+                <Initials>P</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Dunham</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Dunham</LastName>
+                <ForeName>I</ForeName>
+                <Initials>I</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Durbin</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>French</LastName>
+                <ForeName>L</ForeName>
+                <Initials>L</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Grafham</LastName>
+                <ForeName>D</ForeName>
+                <Initials>D</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Gregory</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Hubbard</LastName>
+                <ForeName>T</ForeName>
+                <Initials>T</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Humphray</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Hunt</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Jones</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Lloyd</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>McMurray</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Matthews</LastName>
+                <ForeName>L</ForeName>
+                <Initials>L</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Mercer</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Milne</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Mullikin</LastName>
+                <ForeName>J C</ForeName>
+                <Initials>JC</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Mungall</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Plumb</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Ross</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Shownkeen</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Sims</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Waterston</LastName>
+                <ForeName>R H</ForeName>
+                <Initials>RH</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wilson</LastName>
+                <ForeName>R K</ForeName>
+                <Initials>RK</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Hillier</LastName>
+                <ForeName>L W</ForeName>
+                <Initials>LW</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>McPherson</LastName>
+                <ForeName>J D</ForeName>
+                <Initials>JD</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Marra</LastName>
+                <ForeName>M A</ForeName>
+                <Initials>MA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Mardis</LastName>
+                <ForeName>E R</ForeName>
+                <Initials>ER</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Fulton</LastName>
+                <ForeName>L A</ForeName>
+                <Initials>LA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Chinwalla</LastName>
+                <ForeName>A T</ForeName>
+                <Initials>AT</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Pepin</LastName>
+                <ForeName>K H</ForeName>
+                <Initials>KH</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Gish</LastName>
+                <ForeName>W R</ForeName>
+                <Initials>WR</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Chissoe</LastName>
+                <ForeName>S L</ForeName>
+                <Initials>SL</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wendl</LastName>
+                <ForeName>M C</ForeName>
+                <Initials>MC</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Delehaunty</LastName>
+                <ForeName>K D</ForeName>
+                <Initials>KD</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Miner</LastName>
+                <ForeName>T L</ForeName>
+                <Initials>TL</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Delehaunty</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kramer</LastName>
+                <ForeName>J B</ForeName>
+                <Initials>JB</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Cook</LastName>
+                <ForeName>L L</ForeName>
+                <Initials>LL</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Fulton</LastName>
+                <ForeName>R S</ForeName>
+                <Initials>RS</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Johnson</LastName>
+                <ForeName>D L</ForeName>
+                <Initials>DL</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Minx</LastName>
+                <ForeName>P J</ForeName>
+                <Initials>PJ</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Clifton</LastName>
+                <ForeName>S W</ForeName>
+                <Initials>SW</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Hawkins</LastName>
+                <ForeName>T</ForeName>
+                <Initials>T</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Branscomb</LastName>
+                <ForeName>E</ForeName>
+                <Initials>E</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Predki</LastName>
+                <ForeName>P</ForeName>
+                <Initials>P</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Richardson</LastName>
+                <ForeName>P</ForeName>
+                <Initials>P</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wenning</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Slezak</LastName>
+                <ForeName>T</ForeName>
+                <Initials>T</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Doggett</LastName>
+                <ForeName>N</ForeName>
+                <Initials>N</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Cheng</LastName>
+                <ForeName>J F</ForeName>
+                <Initials>JF</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Olsen</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Lucas</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Elkin</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Uberbacher</LastName>
+                <ForeName>E</ForeName>
+                <Initials>E</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Frazier</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Gibbs</LastName>
+                <ForeName>R A</ForeName>
+                <Initials>RA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Muzny</LastName>
+                <ForeName>D M</ForeName>
+                <Initials>DM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Scherer</LastName>
+                <ForeName>S E</ForeName>
+                <Initials>SE</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Bouck</LastName>
+                <ForeName>J B</ForeName>
+                <Initials>JB</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Sodergren</LastName>
+                <ForeName>E J</ForeName>
+                <Initials>EJ</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Worley</LastName>
+                <ForeName>K C</ForeName>
+                <Initials>KC</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Rives</LastName>
+                <ForeName>C M</ForeName>
+                <Initials>CM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Gorrell</LastName>
+                <ForeName>J H</ForeName>
+                <Initials>JH</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Metzker</LastName>
+                <ForeName>M L</ForeName>
+                <Initials>ML</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Naylor</LastName>
+                <ForeName>S L</ForeName>
+                <Initials>SL</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kucherlapati</LastName>
+                <ForeName>R S</ForeName>
+                <Initials>RS</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Nelson</LastName>
+                <ForeName>D L</ForeName>
+                <Initials>DL</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Weinstock</LastName>
+                <ForeName>G M</ForeName>
+                <Initials>GM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Sakaki</LastName>
+                <ForeName>Y</ForeName>
+                <Initials>Y</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Fujiyama</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Hattori</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Yada</LastName>
+                <ForeName>T</ForeName>
+                <Initials>T</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Toyoda</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Itoh</LastName>
+                <ForeName>T</ForeName>
+                <Initials>T</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kawagoe</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Watanabe</LastName>
+                <ForeName>H</ForeName>
+                <Initials>H</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Totoki</LastName>
+                <ForeName>Y</ForeName>
+                <Initials>Y</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Taylor</LastName>
+                <ForeName>T</ForeName>
+                <Initials>T</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Weissenbach</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Heilig</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Saurin</LastName>
+                <ForeName>W</ForeName>
+                <Initials>W</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Artiguenave</LastName>
+                <ForeName>F</ForeName>
+                <Initials>F</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Brottier</LastName>
+                <ForeName>P</ForeName>
+                <Initials>P</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Bruls</LastName>
+                <ForeName>T</ForeName>
+                <Initials>T</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Pelletier</LastName>
+                <ForeName>E</ForeName>
+                <Initials>E</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Robert</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wincker</LastName>
+                <ForeName>P</ForeName>
+                <Initials>P</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Smith</LastName>
+                <ForeName>D R</ForeName>
+                <Initials>DR</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Doucette-Stamm</LastName>
+                <ForeName>L</ForeName>
+                <Initials>L</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Rubenfield</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Weinstock</LastName>
+                <ForeName>K</ForeName>
+                <Initials>K</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Lee</LastName>
+                <ForeName>H M</ForeName>
+                <Initials>HM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Dubois</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Rosenthal</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Platzer</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Nyakatura</LastName>
+                <ForeName>G</ForeName>
+                <Initials>G</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Taudien</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Rump</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Yang</LastName>
+                <ForeName>H</ForeName>
+                <Initials>H</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Yu</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wang</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Huang</LastName>
+                <ForeName>G</ForeName>
+                <Initials>G</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Gu</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Hood</LastName>
+                <ForeName>L</ForeName>
+                <Initials>L</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Rowen</LastName>
+                <ForeName>L</ForeName>
+                <Initials>L</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Madan</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Qin</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Davis</LastName>
+                <ForeName>R W</ForeName>
+                <Initials>RW</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Federspiel</LastName>
+                <ForeName>N A</ForeName>
+                <Initials>NA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Abola</LastName>
+                <ForeName>A P</ForeName>
+                <Initials>AP</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Proctor</LastName>
+                <ForeName>M J</ForeName>
+                <Initials>MJ</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Myers</LastName>
+                <ForeName>R M</ForeName>
+                <Initials>RM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Schmutz</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Dickson</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Grimwood</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Cox</LastName>
+                <ForeName>D R</ForeName>
+                <Initials>DR</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Olson</LastName>
+                <ForeName>M V</ForeName>
+                <Initials>MV</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kaul</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Raymond</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Shimizu</LastName>
+                <ForeName>N</ForeName>
+                <Initials>N</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kawasaki</LastName>
+                <ForeName>K</ForeName>
+                <Initials>K</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Minoshima</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Evans</LastName>
+                <ForeName>G A</ForeName>
+                <Initials>GA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Athanasiou</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Schultz</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Roe</LastName>
+                <ForeName>B A</ForeName>
+                <Initials>BA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Chen</LastName>
+                <ForeName>F</ForeName>
+                <Initials>F</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Pan</LastName>
+                <ForeName>H</ForeName>
+                <Initials>H</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Ramser</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Lehrach</LastName>
+                <ForeName>H</ForeName>
+                <Initials>H</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Reinhardt</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>McCombie</LastName>
+                <ForeName>W R</ForeName>
+                <Initials>WR</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>de la Bastide</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Dedhia</LastName>
+                <ForeName>N</ForeName>
+                <Initials>N</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Blöcker</LastName>
+                <ForeName>H</ForeName>
+                <Initials>H</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Hornischer</LastName>
+                <ForeName>K</ForeName>
+                <Initials>K</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Nordsiek</LastName>
+                <ForeName>G</ForeName>
+                <Initials>G</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Agarwala</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Aravind</LastName>
+                <ForeName>L</ForeName>
+                <Initials>L</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Bailey</LastName>
+                <ForeName>J A</ForeName>
+                <Initials>JA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Bateman</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Batzoglou</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Birney</LastName>
+                <ForeName>E</ForeName>
+                <Initials>E</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Bork</LastName>
+                <ForeName>P</ForeName>
+                <Initials>P</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Brown</LastName>
+                <ForeName>D G</ForeName>
+                <Initials>DG</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Burge</LastName>
+                <ForeName>C B</ForeName>
+                <Initials>CB</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Cerutti</LastName>
+                <ForeName>L</ForeName>
+                <Initials>L</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Chen</LastName>
+                <ForeName>H C</ForeName>
+                <Initials>HC</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Church</LastName>
+                <ForeName>D</ForeName>
+                <Initials>D</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Clamp</LastName>
+                <ForeName>M</ForeName>
+                <Initials>M</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Copley</LastName>
+                <ForeName>R R</ForeName>
+                <Initials>RR</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Doerks</LastName>
+                <ForeName>T</ForeName>
+                <Initials>T</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Eddy</LastName>
+                <ForeName>S R</ForeName>
+                <Initials>SR</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Eichler</LastName>
+                <ForeName>E E</ForeName>
+                <Initials>EE</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Furey</LastName>
+                <ForeName>T S</ForeName>
+                <Initials>TS</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Galagan</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Gilbert</LastName>
+                <ForeName>J G</ForeName>
+                <Initials>JG</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Harmon</LastName>
+                <ForeName>C</ForeName>
+                <Initials>C</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Hayashizaki</LastName>
+                <ForeName>Y</ForeName>
+                <Initials>Y</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Haussler</LastName>
+                <ForeName>D</ForeName>
+                <Initials>D</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Hermjakob</LastName>
+                <ForeName>H</ForeName>
+                <Initials>H</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Hokamp</LastName>
+                <ForeName>K</ForeName>
+                <Initials>K</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Jang</LastName>
+                <ForeName>W</ForeName>
+                <Initials>W</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Johnson</LastName>
+                <ForeName>L S</ForeName>
+                <Initials>LS</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Jones</LastName>
+                <ForeName>T A</ForeName>
+                <Initials>TA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kasif</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kaspryzk</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kennedy</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kent</LastName>
+                <ForeName>W J</ForeName>
+                <Initials>WJ</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kitts</LastName>
+                <ForeName>P</ForeName>
+                <Initials>P</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Koonin</LastName>
+                <ForeName>E V</ForeName>
+                <Initials>EV</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Korf</LastName>
+                <ForeName>I</ForeName>
+                <Initials>I</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kulp</LastName>
+                <ForeName>D</ForeName>
+                <Initials>D</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Lancet</LastName>
+                <ForeName>D</ForeName>
+                <Initials>D</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Lowe</LastName>
+                <ForeName>T M</ForeName>
+                <Initials>TM</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>McLysaght</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Mikkelsen</LastName>
+                <ForeName>T</ForeName>
+                <Initials>T</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Moran</LastName>
+                <ForeName>J V</ForeName>
+                <Initials>JV</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Mulder</LastName>
+                <ForeName>N</ForeName>
+                <Initials>N</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Pollara</LastName>
+                <ForeName>V J</ForeName>
+                <Initials>VJ</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Ponting</LastName>
+                <ForeName>C P</ForeName>
+                <Initials>CP</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Schuler</LastName>
+                <ForeName>G</ForeName>
+                <Initials>G</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Schultz</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Slater</LastName>
+                <ForeName>G</ForeName>
+                <Initials>G</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Smit</LastName>
+                <ForeName>A F</ForeName>
+                <Initials>AF</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Stupka</LastName>
+                <ForeName>E</ForeName>
+                <Initials>E</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Szustakowski</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Thierry-Mieg</LastName>
+                <ForeName>D</ForeName>
+                <Initials>D</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Thierry-Mieg</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wagner</LastName>
+                <ForeName>L</ForeName>
+                <Initials>L</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wallis</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wheeler</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Williams</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wolf</LastName>
+                <ForeName>Y I</ForeName>
+                <Initials>YI</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wolfe</LastName>
+                <ForeName>K H</ForeName>
+                <Initials>KH</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Yang</LastName>
+                <ForeName>S P</ForeName>
+                <Initials>SP</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Yeh</LastName>
+                <ForeName>R F</ForeName>
+                <Initials>RF</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Collins</LastName>
+                <ForeName>F</ForeName>
+                <Initials>F</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Guyer</LastName>
+                <ForeName>M S</ForeName>
+                <Initials>MS</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Peterson</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Felsenfeld</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wetterstrand</LastName>
+                <ForeName>K A</ForeName>
+                <Initials>KA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Patrinos</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Morgan</LastName>
+                <ForeName>M J</ForeName>
+                <Initials>MJ</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>de Jong</LastName>
+                <ForeName>P</ForeName>
+                <Initials>P</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Catanese</LastName>
+                <ForeName>J J</ForeName>
+                <Initials>JJ</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Osoegawa</LastName>
+                <ForeName>K</ForeName>
+                <Initials>K</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Shizuya</LastName>
+                <ForeName>H</ForeName>
+                <Initials>H</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Choi</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Chen</LastName>
+                <ForeName>Y J</ForeName>
+                <Initials>YJ</Initials>
+            </Author>
+            <Author ValidYN="N">
+                <LastName>Szustakowki</LastName>
+                <ForeName>J</ForeName>
+                <Initials>J</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <CollectiveName>International Human Genome Sequencing Consortium</CollectiveName>
+            </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+            <PublicationType>Journal Article</PublicationType>
+            <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            <PublicationType>Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+            <PublicationType>Research Support, U.S. Gov't, P.H.S.</PublicationType>
+        </PublicationTypeList>
+    </Article>
+    <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>Nature</MedlineTA>
+        <NlmUniqueID>0410462</NlmUniqueID>
+        <ISSNLinking>0028-0836</ISSNLinking>
+    </MedlineJournalInfo>
+    <ChemicalList>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>DNA Transposable Elements</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Proteins</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>0</RegistryNumber>
+            <NameOfSubstance>Proteome</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+            <RegistryNumber>63231-63-0</RegistryNumber>
+            <NameOfSubstance>RNA</NameOfSubstance>
+        </Chemical>
+    </ChemicalList>
+    <CitationSubset>IM</CitationSubset>
+    <CommentsCorrectionsList>
+        <CommentsCorrections RefType="CommentIn">
+            <RefSource>Nature. 2001 Oct 18;413(6857):660</RefSource>
+            <PMID Version="1">11606985</PMID>
+        </CommentsCorrections>
+        <CommentsCorrections RefType="CommentIn">
+            <RefSource>Nature. 2001 Feb 15;409(6822):822-3</RefSource>
+            <PMID Version="1">11236997</PMID>
+        </CommentsCorrections>
+        <CommentsCorrections RefType="CommentIn">
+            <RefSource>Nature. 2001 Feb 15;409(6822):818-20</RefSource>
+            <PMID Version="1">11236994</PMID>
+        </CommentsCorrections>
+        <CommentsCorrections RefType="CommentIn">
+            <RefSource>Nature. 2001 Feb 15;409(6822):820-1</RefSource>
+            <PMID Version="1">11236995</PMID>
+        </CommentsCorrections>
+        <CommentsCorrections RefType="CommentIn">
+            <RefSource>Nature. 2001 Feb 15;409(6822):814-6</RefSource>
+            <PMID Version="1">11236992</PMID>
+        </CommentsCorrections>
+        <CommentsCorrections RefType="ErratumIn">
+            <RefSource>Nature 2001 Jun 7;411(6838):720</RefSource>
+            <Note>Szustakowki, J [corrected to Szustakowski, J]</Note>
+        </CommentsCorrections>
+        <CommentsCorrections RefType="ErratumIn">
+            <RefSource>Nature 2001 Aug 2;412(6846):565</RefSource>
+        </CommentsCorrections>
+    </CommentsCorrectionsList>
+    <MeshHeadingList>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Chromosome Mapping</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Conserved Sequence</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">CpG Islands</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">DNA Transposable Elements</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Databases, Factual</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Drug Industry</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Evolution, Molecular</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Forecasting</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">GC Rich Sequence</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Gene Duplication</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Genes</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Genetic Diseases, Inborn</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Genetics, Medical</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Genome, Human</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Human Genome Project</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Mutation</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Private Sector</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Proteins</DescriptorName>
+            <QualifierName MajorTopicYN="N">genetics</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Proteome</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Public Sector</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">RNA</DescriptorName>
+            <QualifierName MajorTopicYN="N">genetics</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Repetitive Sequences, Nucleic Acid</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Sequence Analysis, DNA</DescriptorName>
+            <QualifierName MajorTopicYN="N">methods</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Species Specificity</DescriptorName>
+        </MeshHeading>
+    </MeshHeadingList>
+</MedlineCitation>
+<MedlineCitation Owner="NLM" Status="MEDLINE">
+    <PMID Version="1">11243089</PMID>
+    <DateCreated>
+        <Year>2001</Year>
+        <Month>03</Month>
+        <Day>12</Day>
+    </DateCreated>
+    <DateCompleted>
+        <Year>2001</Year>
+        <Month>05</Month>
+        <Day>17</Day>
+    </DateCompleted>
+    <DateRevised>
+        <Year>2006</Year>
+        <Month>11</Month>
+        <Day>15</Day>
+    </DateRevised>
+    <Article PubModel="Print">
+        <Journal>
+            <ISSN IssnType="Print">0019-557X</ISSN>
+            <JournalIssue CitedMedium="Print">
+                <Volume>43</Volume>
+                <Issue>1</Issue>
+                <PubDate>
+                    <MedlineDate>1999 Jan-Mar</MedlineDate>
+                </PubDate>
+            </JournalIssue>
+            <Title>Indian journal of public health</Title>
+            <ISOAbbreviation>Indian J Public Health</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Title 10</ArticleTitle>
+        <Pagination>
+            <MedlinePgn>49-54</MedlinePgn>
+        </Pagination>
+        <Abstract>
+            <AbstractText>Abstract 10</AbstractText>
+        </Abstract>
+        <Affiliation>Department of Community Medicine, Medical College, Calcutta.</Affiliation>
+        <AuthorList CompleteYN="Y">
+            <Author ValidYN="Y">
+                <LastName>Ray</LastName>
+                <ForeName>S K</ForeName>
+                <Initials>SK</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Mishra</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Biswas</LastName>
+                <ForeName>R</ForeName>
+                <Initials>R</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Kumar</LastName>
+                <ForeName>S</ForeName>
+                <Initials>S</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Halder</LastName>
+                <ForeName>A</ForeName>
+                <Initials>A</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Chatterjee</LastName>
+                <ForeName>T</ForeName>
+                <Initials>T</Initials>
+            </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+            <PublicationType>Journal Article</PublicationType>
+            <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+        </PublicationTypeList>
+    </Article>
+    <MedlineJournalInfo>
+        <Country>India</Country>
+        <MedlineTA>Indian J Public Health</MedlineTA>
+        <NlmUniqueID>0400673</NlmUniqueID>
+        <ISSNLinking>0019-557X</ISSNLinking>
+    </MedlineJournalInfo>
+    <CitationSubset>IM</CitationSubset>
+    <CitationSubset>J</CitationSubset>
+    <MeshHeadingList>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Child, Preschool</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Cluster Analysis</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Cross-Sectional Studies</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Educational Status</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N" Type="Geographic">India</DescriptorName>
+            <QualifierName MajorTopicYN="N">epidemiology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Infant</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="Y">Nutritional Status</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Poverty</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Prejudice</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Prevalence</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+            <DescriptorName MajorTopicYN="N">Protein-Energy Malnutrition</DescriptorName>
+            <QualifierName MajorTopicYN="Y">epidemiology</QualifierName>
+        </MeshHeading>
+    </MeshHeadingList>
+    <OtherID Source="PIP">143717</OtherID>
+    <OtherID Source="POP">00288124</OtherID>
+    <OtherAbstract Type="PIP">
+        <AbstractText>Other Abstract 10</AbstractText>
+    </OtherAbstract>
+    <KeywordList Owner="PIP">
+        <Keyword MajorTopicYN="N">Age Factors</Keyword>
+        <Keyword MajorTopicYN="N">Asia</Keyword>
+        <Keyword MajorTopicYN="Y">Child</Keyword>
+        <Keyword MajorTopicYN="Y">Child Nutrition</Keyword>
+        <Keyword MajorTopicYN="N">Demographic Factors</Keyword>
+        <Keyword MajorTopicYN="N">Developing Countries</Keyword>
+        <Keyword MajorTopicYN="N">Diseases</Keyword>
+        <Keyword MajorTopicYN="N">Geographic Factors</Keyword>
+        <Keyword MajorTopicYN="N">Health</Keyword>
+        <Keyword MajorTopicYN="Y">Homeless Persons</Keyword>
+        <Keyword MajorTopicYN="N">India</Keyword>
+        <Keyword MajorTopicYN="Y">Malnutrition</Keyword>
+        <Keyword MajorTopicYN="N">Nutrition</Keyword>
+        <Keyword MajorTopicYN="N">Nutrition Disorders</Keyword>
+        <Keyword MajorTopicYN="N">Population</Keyword>
+        <Keyword MajorTopicYN="N">Population Characteristics</Keyword>
+        <Keyword MajorTopicYN="N">Research Methodology</Keyword>
+        <Keyword MajorTopicYN="Y">Research Report</Keyword>
+        <Keyword MajorTopicYN="N">Residence Characteristics</Keyword>
+        <Keyword MajorTopicYN="N">Sampling Studies</Keyword>
+        <Keyword MajorTopicYN="N">Southern Asia</Keyword>
+        <Keyword MajorTopicYN="N">Spatial Distribution</Keyword>
+        <Keyword MajorTopicYN="N">Studies</Keyword>
+        <Keyword MajorTopicYN="Y">Surveys</Keyword>
+        <Keyword MajorTopicYN="Y">Urban Population</Keyword>
+        <Keyword MajorTopicYN="N">Youth</Keyword>
+    </KeywordList>
+    <KeywordList Owner="PIP">
+        <Keyword MajorTopicYN="N">Age Factors</Keyword>
+        <Keyword MajorTopicYN="N">Asia</Keyword>
+        <Keyword MajorTopicYN="Y">Child</Keyword>
+        <Keyword MajorTopicYN="Y">Child Nutrition</Keyword>
+        <Keyword MajorTopicYN="N">Demographic Factors</Keyword>
+        <Keyword MajorTopicYN="N">Developing Countries</Keyword>
+        <Keyword MajorTopicYN="N">Diseases</Keyword>
+        <Keyword MajorTopicYN="N">Geographic Factors</Keyword>
+        <Keyword MajorTopicYN="N">Health</Keyword>
+        <Keyword MajorTopicYN="Y">Homeless Persons</Keyword>
+        <Keyword MajorTopicYN="N">India</Keyword>
+        <Keyword MajorTopicYN="Y">Malnutrition</Keyword>
+        <Keyword MajorTopicYN="N">Nutrition</Keyword>
+        <Keyword MajorTopicYN="N">Nutrition Disorders</Keyword>
+        <Keyword MajorTopicYN="N">Population</Keyword>
+        <Keyword MajorTopicYN="N">Population Characteristics</Keyword>
+        <Keyword MajorTopicYN="N">Research Methodology</Keyword>
+        <Keyword MajorTopicYN="Y">Research Report</Keyword>
+        <Keyword MajorTopicYN="N">Residence Characteristics</Keyword>
+        <Keyword MajorTopicYN="N">Sampling Studies</Keyword>
+        <Keyword MajorTopicYN="N">Southern Asia</Keyword>
+        <Keyword MajorTopicYN="N">Spatial Distribution</Keyword>
+        <Keyword MajorTopicYN="N">Studies</Keyword>
+        <Keyword MajorTopicYN="Y">Surveys</Keyword>
+        <Keyword MajorTopicYN="Y">Urban Population</Keyword>
+        <Keyword MajorTopicYN="N">Youth</Keyword>
+    </KeywordList>
+    <GeneralNote Owner="PIP">TJ: INDIAN JOURNAL OF PUBLIC HEALTH.</GeneralNote>
+    <GeneralNote Owner="PIP">TJ: INDIAN JOURNAL OF PUBLIC HEALTH.</GeneralNote>
+</MedlineCitation>
+<DeleteCitation>
+<PMID Version="1">1234</PMID>
+<PMID Version="1">5678</PMID>
+</DeleteCitation>
+</MedlineCitationSet>

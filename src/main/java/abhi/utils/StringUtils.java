@@ -6,8 +6,8 @@ package abhi.utils;
  */
 public class StringUtils {
 
-
     public static String removeLastCharacter(String s) {
         return s.substring(0, s.length() - 1);
     }
+
 }

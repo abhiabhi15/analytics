@@ -4,3 +4,5 @@ target
 *.project
 *.log
 *.idea
+src/main/resources/medsamp2015*
+src/main/resources/*.csv
