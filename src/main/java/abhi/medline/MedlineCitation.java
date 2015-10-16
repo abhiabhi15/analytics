@@ -664,7 +664,8 @@ public class MedlineCitation {
         @Override
         public String getYear(){
             if (getMedlineDate() != null && !getMedlineDate().isEmpty()) {
-                return getMedlineDate().split(" ")[0];
+                String[] parts = getMedlineDate().split(" ")[0].split("-");
+                return parts[0];
             }else{
                 return super.getYear();
             }

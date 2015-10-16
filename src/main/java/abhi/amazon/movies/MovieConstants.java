@@ -11,6 +11,11 @@ public class MovieConstants {
     public static String UID = "userId";
     public static String PROFILE_NAME = "p_name";
     public static String REVIEWS = "reviews";
+    public static String TOTAL_REVIEWS = "num_reviews";
+    public static String AVG_REVIEW_SCORE = "avg_score";
+    public static String AVG_HELP_SCORE = "avg_help";
+    public static String GENRE = "genre";
+
 
     public static final String PRODUCT_ID = "prod_id";
     public static final String HELPFULNESS = "help";

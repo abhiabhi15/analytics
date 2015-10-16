@@ -13,6 +13,7 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * Author : abhishek
@@ -21,14 +22,14 @@ import java.util.Map;
 public class MedlineXmlParser {
 
     private static final String FILE_PATH = "/home/abhishek/dstools/analytics/src/main/resources/";
-    private static final String MEDLINE_SAMPLE_XML_FILE_NAME = FILE_PATH + "medsamp2015h.xml";
+    private static final String MEDLINE_SAMPLE_XML_FILE_NAME = FILE_PATH + "medline/medsamp2015c.xml";
 
     private static final String YEAR_OF_INVESTIGATION = "1955";
 
     MongoDatabase db;
     BufferedWriter bufferedWriter = null;
 
-    private Map<String, Integer> dateMap = new HashMap<>();
+    private Map<String, Integer> dateMap = new TreeMap<>();
     private Map<String, MedlineAuthor> authorMap = new HashMap<>();
 
     public void parseXmlForDates() throws Exception{
@@ -46,7 +47,7 @@ public class MedlineXmlParser {
         }
 
         for (Map.Entry<String, Integer> entry : dateMap.entrySet()) {
-            System.out.println(entry.getKey() + " = " + entry.getValue());
+            System.out.println(entry.getKey() + "\t" + entry.getValue());
         }
 
     }

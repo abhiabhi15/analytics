@@ -14,27 +14,32 @@ import java.util.List;
 public class MovieYearSep {
 
     long counter = 0l;
+    private static final String FILE_PATH = "/home/abhishek/Downloads/ncsu/istudy/data/movie/year/";
 
     public void writeFilesByYear() {
 
+
         BufferedReader br = null;
         String sCurrentLine = null;
-        FileWriter writer_2003, writer_2004, writer_2005, writer_2006, writer_2007, writer_2008, writer_2009,
+        FileWriter writer_2000,writer_2001,writer_2002,writer_2003, writer_2004, writer_2005, writer_2006, writer_2007, writer_2008, writer_2009,
                 writer_2010, writer_2011, writer_2012 = null;
 
         try {
-            writer_2003 = new FileWriter("/home/abhishek/Downloads/ncsu/istudy/data/review_2003.csv");
-            writer_2004 = new FileWriter("/home/abhishek/Downloads/ncsu/istudy/data/review_2004.csv");
-            writer_2005 = new FileWriter("/home/abhishek/Downloads/ncsu/istudy/data/review_2005.csv");
-            writer_2006 = new FileWriter("/home/abhishek/Downloads/ncsu/istudy/data/review_2006.csv");
-            writer_2007 = new FileWriter("/home/abhishek/Downloads/ncsu/istudy/data/review_2007.csv");
-            writer_2008 = new FileWriter("/home/abhishek/Downloads/ncsu/istudy/data/review_2008.csv");
-            writer_2009 = new FileWriter("/home/abhishek/Downloads/ncsu/istudy/data/review_2009.csv");
-            writer_2010 = new FileWriter("/home/abhishek/Downloads/ncsu/istudy/data/review_2010.csv");
-            writer_2011 = new FileWriter("/home/abhishek/Downloads/ncsu/istudy/data/review_2011.csv");
-            writer_2012 = new FileWriter("/home/abhishek/Downloads/ncsu/istudy/data/review_2012.csv");
-
-            br = new BufferedReader(new FileReader("/home/abhishek/Downloads/ncsu/istudy/data/movies.txt"));
+            writer_2000 = new FileWriter(FILE_PATH + "review_2000.csv");
+            writer_2001 = new FileWriter(FILE_PATH + "review_2001.csv");
+            writer_2002 = new FileWriter(FILE_PATH + "review_2002.csv");
+            writer_2003 = new FileWriter(FILE_PATH + "review_2003.csv");
+            /*writer_2004 = new FileWriter(FILE_PATH + "review_2004.csv");
+            writer_2005 = new FileWriter(FILE_PATH + "review_2005.csv");
+            writer_2006 = new FileWriter(FILE_PATH + "review_2006.csv");
+            writer_2007 = new FileWriter(FILE_PATH + "review_2007.csv");
+            writer_2008 = new FileWriter(FILE_PATH + "review_2008.csv");
+            writer_2009 = new FileWriter(FILE_PATH + "review_2009.csv");
+            writer_2010 = new FileWriter(FILE_PATH + "review_2010.csv");
+            writer_2011 = new FileWriter(FILE_PATH + "review_2011.csv");
+            writer_2012 = new FileWriter(FILE_PATH + "review_2012.csv");
+*/
+            br = new BufferedReader(new FileReader("/home/abhishek/Downloads/ncsu/istudy/data/movie/movies.txt"));
 
             List<String> lines = new ArrayList<>();
             while ((sCurrentLine = br.readLine()) != null) {
@@ -46,10 +51,19 @@ public class MovieYearSep {
                         User user = MovieUtils.createUser(lines);
                         String[] qTags = user.getPeriod().trim().split("_");
                         switch (qTags[1]) {
-                            case "2003":
+                            case "2000":
+                                writeLines(writer_2000, lines);
+                                break;
+                            case "2001":
+                                writeLines(writer_2001, lines);
+                                break;
+                            case "2002":
+                                writeLines(writer_2002, lines);
+                                break;
+                           case "2003":
                                 writeLines(writer_2003, lines);
                                 break;
-                            case "2004":
+                           /* case "2004":
                                 writeLines(writer_2004, lines);
                                 break;
                             case "2005":
@@ -75,7 +89,7 @@ public class MovieYearSep {
                                 break;
                             case "2012":
                                 writeLines(writer_2012, lines);
-                                break;
+                                break;*/
                         }
                     }
                     lines.clear();
@@ -84,8 +98,11 @@ public class MovieYearSep {
                     }
                 }
             }
+            writer_2000.close();
+            writer_2001.close();
+            writer_2002.close();
             writer_2003.close();
-            writer_2004.close();
+            /*writer_2004.close();
             writer_2005.close();
             writer_2006.close();
             writer_2007.close();
@@ -94,7 +111,7 @@ public class MovieYearSep {
             writer_2010.close();
             writer_2011.close();
             writer_2012.close();
-
+*/
         } catch (IOException e) {
             System.out.println(sCurrentLine);
             e.printStackTrace();

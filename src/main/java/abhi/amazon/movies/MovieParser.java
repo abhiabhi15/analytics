@@ -28,7 +28,7 @@ public class MovieParser {
     Map<String, Long> reviewMap;
     long counter = 0l;
     int errorReviews = 1;
-    final String yearOfQuery = "2000";
+    final String yearOfQuery = "2005";
 
     public void addUsers() {
 
@@ -50,7 +50,7 @@ public class MovieParser {
         col_q4.createIndex(new Document(MovieConstants.UID, 1));
 
         try {
-            br = new BufferedReader(new FileReader("/home/abhishek/Downloads/ncsu/istudy/data/review_" + yearOfQuery + ".csv"));
+            br = new BufferedReader(new FileReader("/home/abhishek/Downloads/ncsu/istudy/data/movie/year/review_" + yearOfQuery + ".csv"));
             List<String> lines = new ArrayList<>();
             while ((sCurrentLine = br.readLine()) != null) {
                 if (sCurrentLine.length() > 2) {
