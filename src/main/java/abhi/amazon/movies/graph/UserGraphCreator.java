@@ -71,7 +71,7 @@ public class UserGraphCreator {
             sumHelpScore += getHelpScore((String) reviewDoc.get(MovieConstants.HELPFULNESS));
             updateGenreDoc(genreDoc, lookup, reviewDoc);
         }
-
+        reviewerNode.append(MovieConstants.TOTAL_REVIEWS, numReviews);
         reviewerNode.append(MovieConstants.AVG_REVIEW_SCORE, sumScore/numReviews);
         reviewerNode.append(MovieConstants.AVG_HELP_SCORE, sumHelpScore/numReviews);
         reviewerNode.append(MovieConstants.GENRE, genreDoc);
