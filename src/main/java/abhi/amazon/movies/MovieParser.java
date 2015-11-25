@@ -19,16 +19,16 @@ import java.util.*;
  */
 public class MovieParser {
 
-    MongoDatabase db;
-    MongoCollection col_q1;
-    MongoCollection col_q2;
-    MongoCollection col_q3;
-    MongoCollection col_q4;
+    private MongoDatabase db;
+    private MongoCollection col_q1;
+    private MongoCollection col_q2;
+    private MongoCollection col_q3;
+    private MongoCollection col_q4;
 
-    Map<String, Long> reviewMap;
-    long counter = 0l;
-    int errorReviews = 1;
-    final String yearOfQuery = "2005";
+    private Map<String, Long> reviewMap;
+    private long counter = 0l;
+    private int errorReviews = 1;
+    private final String yearOfQuery = "2005";
 
     public void addUsers() {
 
@@ -165,6 +165,79 @@ public class MovieParser {
         }
     }
 
+    public void parseMovieReviewForStats() {
+
+        reviewMap = new HashMap<>();
+        BufferedReader br = null;
+        String sCurrentLine = null;
+        FileWriter writer = null;
+        List<String> reviewYears = Arrays.asList("2005", "2006", "2007","2008","2009","2010","2011");
+
+        try {
+            writer = new FileWriter("/home/abhishek/Downloads/ncsu/istudy/data/movie/year/review_freq.csv");
+
+            for(String reviewYear : reviewYears){
+                System.out.println("Reviewing Year = " + reviewYear);
+                br = new BufferedReader(new FileReader("/home/abhishek/Downloads/ncsu/istudy/data/movie/year/review_" + reviewYear + ".csv"));
+                while ((sCurrentLine = br.readLine()) != null) {
+                    if (sCurrentLine.length() > 2) {
+                        reviewStatistics(sCurrentLine);
+                    }
+                }
+            }
+
+            writeReviewStatistics(writer);
+            System.out.println("Total Reviews  = " + counter);
+
+        } catch (IOException e) {
+            System.out.println(sCurrentLine);
+            e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (br != null) br.close();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
+
+    private void writeReviewStatistics(FileWriter writer) throws Exception {
+        writer.append("productId");
+        writer.append(",");
+        writer.append("reviews");
+        writer.append("\n");
+        for (Map.Entry<String, Long> entry : reviewMap.entrySet()) {
+
+            writer.append(entry.getKey());
+            writer.append(",");
+            writer.append(entry.getValue() + "");
+            writer.append("\n");
+        }
+        writer.flush();
+        writer.close();
+    }
+
+    private void reviewStatistics(String sCurrentLine) {
+
+        String[] tags = sCurrentLine.split(":");
+        String[] headers = tags[0].split("/");
+        if (headers.length > 1 && headers[1].equalsIgnoreCase("productId")) {
+            String productId = tags[1].trim();
+
+            if (reviewMap.containsKey(productId)) {
+                reviewMap.put(productId, reviewMap.get(productId) + 1l);
+            } else {
+                reviewMap.put(productId, 1l);
+            }
+            counter++;
+            if (counter % 500 == 0) {
+                System.out.println("Reviews Processed = " + counter);
+            }
+        }
+    }
+
 
     private void writeTimeStatistics(FileWriter writer) throws Exception {
 
@@ -216,6 +289,6 @@ public class MovieParser {
 
     public static void main(String[] args) {
         MovieParser parser = new MovieParser();
-        parser.addUsers();
+        parser.parseMovieReviewForStats();
     }
 }

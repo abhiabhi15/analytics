@@ -23,11 +23,13 @@ public class MovieConstants {
     public static final String TIME = "time";
     public static final String SUMMARY = "summary";
     public static final String TEXT = "text";
+    public static final String TITLE = "title";
 
     public static String Q1_2000 = "q1_2000";
     public static String Q2_2000 = "q2_2000";
     public static String Q3_2000 = "q3_2000";
     public static String Q4_2000 = "q4_2000";
 
-
+    public static String MOVIE_INFO = "m_info";
+    public static String MOVIE_DATA = "m_data";
 }
