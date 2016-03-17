@@ -16,7 +16,7 @@ public class GenderizeIoAPITest {
         Genderize api = GenderizeIoAPI.create();
         NameGender gender = api.getGender("Kim");
         Assert.assertTrue(gender.isFemale());
-    }
+   }
 
     @Test
     public void testGetSingleNameGenderByLocalization() {
