@@ -11,6 +11,12 @@ public enum Tag {
    VOTE_FUNNY,
    VOTE_COOL,
 
+   STAR_1,
+   STAR_2,
+   STAR_3,
+   STAR_4,
+   STAR_5,
+
    CAT_RES,
    CAT_SHO,
    CAT_SER,
@@ -79,6 +85,8 @@ public enum Tag {
    COL_UWASH,
    COL_WATERLOO,
    COL_VTECH;
+
+
 
    public static Tag getValue(String tagStr){
         for(Tag tag : Tag.values()){

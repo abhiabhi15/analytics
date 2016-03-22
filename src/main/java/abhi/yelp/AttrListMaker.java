@@ -105,6 +105,118 @@ public class AttrListMaker {
         }
     }
 
+    private void populateNonCumUserMaps(){
+        System.out.println("Populating Non cumulative User Maps");
+        JSONParser parser = new JSONParser();
+        BufferedReader br = null;
+        count = 0;
+        JSONObject jsonObject = null;
+        try{
+            String sCurrentLine = null;
+            br = new BufferedReader(new FileReader(YelpConstants.FILENAME));
+            while ((sCurrentLine = br.readLine()) != null) {
+                Object obj = parser.parse(sCurrentLine);
+                jsonObject = (JSONObject) obj;
+                String type = (String) jsonObject.get("type");
+                if (type.equalsIgnoreCase("review")){
+                    count++;
+                    if (count % 20000 == 0){
+                        System.out.println("Review Processed = " + count);
+                    }
+
+                    String date = (String) jsonObject.get("date");
+                    Integer year = Integer.parseInt(date.split("-")[0]);
+                    if (year > currYear){
+                        continue;
+                    }
+
+                    String uId = (String) jsonObject.get("user_id");
+                    String businessId = (String) jsonObject.get("business_id");
+                    JSONObject votes = (JSONObject)jsonObject.get("votes");
+                    Integer useful = (int) (long) votes.get("useful");
+                    Integer funny = (int) (long) votes.get("funny");
+                    Integer cool = (int) (long) votes.get("cool");
+                    List<String> businessCategories = businessCategory.get(businessId);
+                    List<String> businessColgs = businessSchools.get(businessId);
+                    Long star = (Long) jsonObject.get("stars");
+
+                    Map<Tag, Integer> attrMap = null;
+                    Integer userId = userIdMap.get(uId);
+                    if (userCumDataMap.containsKey(userId)){
+                        attrMap = userCumDataMap.get(userId);
+                        if (year == currYear){
+                            attrMap.put(Tag.REVIEW_COUNT, attrMap.get(Tag.REVIEW_COUNT) + 1);
+                            attrMap.put(Tag.VOTE_FUNNY, attrMap.get(Tag.VOTE_FUNNY) + funny);
+                            attrMap.put(Tag.VOTE_USEFUL, attrMap.get(Tag.VOTE_USEFUL) + useful);
+                            attrMap.put(Tag.VOTE_COOL, attrMap.get(Tag.VOTE_COOL) + cool);
+
+                            Tag starTag = Tag.getValue("STAR_" + star);
+                            if (attrMap.containsKey(starTag)){
+                                attrMap.put( starTag , attrMap.get(starTag) + 1);
+                            }else{
+                                attrMap.put( starTag, 1);
+                            }
+
+
+                            for( String colg : businessColgs){
+                                colg = universityTagMap.get(colg);
+                                Tag colgTag = Tag.getValue("COL_" +colg);
+                                if (attrMap.containsKey(colgTag)){
+                                    attrMap.put( colgTag , attrMap.get(colgTag) + 1);
+                                }else{
+                                    attrMap.put( colgTag, 1);
+                                }
+                            }
+
+                            for( String bcategory : businessCategories){
+                                List<String> categories = categoryTagMap.get(bcategory);
+                                for(String category : categories){
+                                    Tag catTag = Tag.getValue("CAT_" + category);
+                                    if (attrMap.containsKey(catTag)){
+                                        attrMap.put( catTag , attrMap.get(catTag) + 1);
+                                    }else{
+                                        attrMap.put( catTag, 1);
+                                    }
+                                }
+                            }
+                        }else{
+                           // System.out.println(jsonObject);
+                        }
+                    }else{
+                        int rcount = 1;
+                        if (year != currYear){
+                            rcount = 0;
+                            funny = 0;
+                            useful = 0;
+                            cool = 0;
+                        }
+
+                        attrMap = new HashMap<>();
+                        attrMap.put(Tag.REVIEW_COUNT, rcount);
+                        attrMap.put(Tag.VOTE_FUNNY, funny);
+                        attrMap.put(Tag.VOTE_USEFUL, useful);
+                        attrMap.put(Tag.VOTE_COOL, cool);
+                        attrMap.put(Tag.getValue("STAR_" + star), rcount);
+
+                        for( String colg : businessColgs){
+                            colg = universityTagMap.get(colg);
+                            attrMap.put( Tag.getValue("COL_" +colg), rcount);
+                        }
+                        for( String bcategory : businessCategories){
+                            List<String> categories = categoryTagMap.get(bcategory);
+                            for(String category : categories){
+                                attrMap.put( Tag.getValue("CAT_" + category), rcount);
+                            }
+                        }
+                    }
+                    userCumDataMap.put(userId, attrMap);
+                }
+            }
+        }catch (Exception ex){
+            System.err.println(jsonObject);
+            ex.printStackTrace();
+        }
+    }
 
     private void populateUserMaps() {
         System.out.println("Populating User Maps");
@@ -130,7 +242,7 @@ public class AttrListMaker {
                         continue;
                     }
 
-                    String userId = (String) jsonObject.get("user_id");
+                    String uId = (String) jsonObject.get("user_id");
                     String businessId = (String) jsonObject.get("business_id");
                     JSONObject votes = (JSONObject)jsonObject.get("votes");
                     Integer useful = (int) (long) votes.get("useful");
@@ -138,9 +250,10 @@ public class AttrListMaker {
                     Integer cool = (int) (long) votes.get("cool");
                     List<String> businessCategories = businessCategory.get(businessId);
                     List<String> businessColgs = businessSchools.get(businessId);
-
+                    Long star = (Long) jsonObject.get("stars");
 
                     Map<Tag, Integer> attrMap = null;
+                    Integer userId = userIdMap.get(uId);
                     if (userCumDataMap.containsKey(userId)){
 
                         attrMap = userCumDataMap.get(userId);
@@ -148,6 +261,14 @@ public class AttrListMaker {
                         attrMap.put(Tag.VOTE_FUNNY, attrMap.get(Tag.VOTE_FUNNY) + funny);
                         attrMap.put(Tag.VOTE_USEFUL, attrMap.get(Tag.VOTE_USEFUL) + useful);
                         attrMap.put(Tag.VOTE_COOL, attrMap.get(Tag.VOTE_COOL) + cool);
+
+                        Tag starTag = Tag.getValue("STAR_" + star);
+                        if (attrMap.containsKey(starTag)){
+                            attrMap.put( starTag , attrMap.get(starTag) + 1);
+                        }else{
+                            attrMap.put( starTag, 1);
+                        }
+
 
                         for( String colg : businessColgs){
                             colg = universityTagMap.get(colg);
@@ -162,7 +283,7 @@ public class AttrListMaker {
                         for( String bcategory : businessCategories){
                             List<String> categories = categoryTagMap.get(bcategory);
                             for(String category : categories){
-                                Tag catTag = Tag.getValue("TAG_" + category);
+                                Tag catTag = Tag.getValue("CAT_" + category);
                                 if (attrMap.containsKey(catTag)){
                                     attrMap.put( catTag , attrMap.get(catTag) + 1);
                                 }else{
@@ -172,11 +293,14 @@ public class AttrListMaker {
                         }
 
                     }else{
+
                         attrMap = new HashMap<>();
                         attrMap.put(Tag.REVIEW_COUNT, 1);
                         attrMap.put(Tag.VOTE_FUNNY, funny);
                         attrMap.put(Tag.VOTE_USEFUL, useful);
                         attrMap.put(Tag.VOTE_COOL, cool);
+                        attrMap.put(Tag.getValue("STAR_" + star), 1);
+
                         for( String colg : businessColgs){
                             colg = universityTagMap.get(colg);
                             attrMap.put( Tag.getValue("COL_" +colg), 1);
@@ -184,10 +308,11 @@ public class AttrListMaker {
                         for( String bcategory : businessCategories){
                             List<String> categories = categoryTagMap.get(bcategory);
                             for(String category : categories){
-                                attrMap.put( Tag.getValue("TAG_" + category), 1);
+                                attrMap.put( Tag.getValue("CAT_" + category), 1);
                             }
                         }
                     }
+                    userCumDataMap.put(userId, attrMap);
                 }
             }
         }catch (Exception ex){
@@ -196,7 +321,7 @@ public class AttrListMaker {
     }
 
     private void writeAttrFiles() {
-        System.out.println("Writing Files");
+        System.out.println("Writing Files = " + currYear);
         FileWriter writer = null;
         String append = "";
         if (cumulative){
@@ -231,13 +356,17 @@ public class AttrListMaker {
     }
 
     public static void main(String[] args) {
-        AttrListMaker maker = new AttrListMaker();
-        maker.cumulative = Boolean.FALSE;
-        maker.currYear = 2004;
-        maker.init();
-        maker.loadBusinessTags();
-        maker.populateUserMaps();
-        maker.writeAttrFiles();
+
+        for(Integer year : Arrays.asList(2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012)){
+            AttrListMaker maker = new AttrListMaker();
+            maker.cumulative = Boolean.FALSE;
+            maker.currYear = year;
+            maker.init();
+            maker.loadBusinessTags();
+            maker.populateNonCumUserMaps();
+            maker.writeAttrFiles();
+        }
+
     }
 
 }
