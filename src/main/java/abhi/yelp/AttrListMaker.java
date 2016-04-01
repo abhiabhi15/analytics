@@ -17,7 +17,7 @@ public class AttrListMaker {
 
     Map<String, List<String>> categoryTagMap = new HashMap<>();
     Map<String, String> universityTagMap = new HashMap<>();
-    Map<String, Integer> userIdMap = new HashMap<>();
+    Map<String, Integer> userIdMap = new LinkedHashMap<>();
 
     Map<String, List<String>> businessCategory = new HashMap<>();
     Map<String, List<String>> businessSchools = new HashMap<>();
@@ -40,7 +40,7 @@ public class AttrListMaker {
             }
 
             // Read Categories
-            br = new BufferedReader(new FileReader(YelpConstants.FILE_PATH + "yelp_tags_new.tsv"));
+            br = new BufferedReader(new FileReader(YelpConstants.FILE_PATH + "yelp_tags.tsv"));
             br.readLine();
             while ((sCurrentLine = br.readLine()) != null) {
                 String[] catTokens = sCurrentLine.split("\t");
@@ -59,6 +59,9 @@ public class AttrListMaker {
                 String[] uniTokens = sCurrentLine.split("\t");
                 universityTagMap.put(uniTokens[0], uniTokens[1]);
             }
+
+            //Load Business Tags
+            loadBusinessTags();
 
         }catch (Exception ex){
             ex.printStackTrace();
@@ -145,10 +148,30 @@ public class AttrListMaker {
                     if (userCumDataMap.containsKey(userId)){
                         attrMap = userCumDataMap.get(userId);
                         if (year == currYear){
-                            attrMap.put(Tag.REVIEW_COUNT, attrMap.get(Tag.REVIEW_COUNT) + 1);
-                            attrMap.put(Tag.VOTE_FUNNY, attrMap.get(Tag.VOTE_FUNNY) + funny);
-                            attrMap.put(Tag.VOTE_USEFUL, attrMap.get(Tag.VOTE_USEFUL) + useful);
-                            attrMap.put(Tag.VOTE_COOL, attrMap.get(Tag.VOTE_COOL) + cool);
+                            if(!attrMap.containsKey(Tag.REVIEW_COUNT)){
+                                attrMap.put(Tag.REVIEW_COUNT,1);
+                            }else{
+                                attrMap.put(Tag.REVIEW_COUNT, attrMap.get(Tag.REVIEW_COUNT) + 1);
+                            }
+
+                            if(!attrMap.containsKey(Tag.VOTE_FUNNY)){
+                                attrMap.put(Tag.VOTE_FUNNY, 1);
+                            }else{
+                                attrMap.put(Tag.VOTE_FUNNY, attrMap.get(Tag.VOTE_FUNNY) + funny);
+                            }
+
+                            if(!attrMap.containsKey(Tag.VOTE_USEFUL)){
+                                attrMap.put(Tag.VOTE_USEFUL, 1);
+                            }else{
+                                attrMap.put(Tag.VOTE_USEFUL, attrMap.get(Tag.VOTE_USEFUL) + useful);
+                            }
+
+
+                            if(!attrMap.containsKey(Tag.VOTE_COOL)){
+                                attrMap.put(Tag.VOTE_COOL, 1);
+                            }else{
+                                attrMap.put(Tag.VOTE_COOL, attrMap.get(Tag.VOTE_COOL) + cool);
+                            }
 
                             Tag starTag = Tag.getValue("STAR_" + star);
                             if (attrMap.containsKey(starTag)){
@@ -156,7 +179,6 @@ public class AttrListMaker {
                             }else{
                                 attrMap.put( starTag, 1);
                             }
-
 
                             for( String colg : businessColgs){
                                 colg = universityTagMap.get(colg);
@@ -328,7 +350,7 @@ public class AttrListMaker {
             append = ".cum";
         }
         try{
-            writer = new FileWriter(YelpConstants.FILE_PATH + "attr/yelp_" + currYear + append + ".attrlist");
+            writer = new FileWriter(YelpConstants.FILE_PATH + "graph/yelp_" + currYear + append + ".attrlist");
             writer.append("USERID");writer.append("\t");
             for(Tag tag : Tag.values()){
                 writer.append(tag.name());
@@ -346,6 +368,7 @@ public class AttrListMaker {
                     writer.append("\t");
                 }
                 writer.append("\n");
+                entry.getValue().clear();
             }
             writer.flush();
             writer.close();
@@ -357,12 +380,13 @@ public class AttrListMaker {
 
     public static void main(String[] args) {
 
+        AttrListMaker maker = new AttrListMaker();
+        maker.init();
+        maker.cumulative = Boolean.FALSE;
         for(Integer year : Arrays.asList(2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012)){
-            AttrListMaker maker = new AttrListMaker();
-            maker.cumulative = Boolean.FALSE;
+            System.out.println("Processing data for year = " + year);
             maker.currYear = year;
-            maker.init();
-            maker.loadBusinessTags();
+            //maker.populateUserMaps();
             maker.populateNonCumUserMaps();
             maker.writeAttrFiles();
         }

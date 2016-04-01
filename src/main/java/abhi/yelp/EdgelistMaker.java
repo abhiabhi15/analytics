@@ -14,32 +14,55 @@ import java.util.*;
  */
 public class EdgelistMaker {
 
-    Map<String, Integer> userIdMap = new HashMap<>();
+    Map<String, Integer> userIdMap = new LinkedHashMap<>();
     Map<String, Map<String, Set<Integer>>> usrReviewMap = new TreeMap<>();
     static Integer ucount = 1;
     static int lcount = 1;
     static final int START_YEAR = 2004;
+    static final int END_YEAR = 2012;
 
-    private void makeEdgeList() {
-
+    private void init() {
+        System.out.println("Init Fetching User Ids and Category Tags");
         BufferedReader br = null;
         try{
             String sCurrentLine = null;
-            br = new BufferedReader(new FileReader(YelpConstants.FILENAME));
+            // Read UserID
+            br = new BufferedReader(new FileReader(YelpConstants.FILE_PATH + "yelp_user.txt"));
             while ((sCurrentLine = br.readLine()) != null) {
-                parseAndAnalyzeReviewJson(sCurrentLine);
-                if (lcount % 20000 == 0){
-                    System.out.println("Processed Lines = " + lcount);
+                String[] uids = sCurrentLine.split("\t");
+                userIdMap.put(uids[0], Integer.valueOf(uids[1]));
+            }
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
+    }
+
+    private void makeEdgeList() {
+
+        int currYear = START_YEAR;
+        BufferedReader br = null;
+        try{
+            while(currYear <= END_YEAR){
+                String sCurrentLine = null;
+                br = new BufferedReader(new FileReader(YelpConstants.FILENAME));
+                while ((sCurrentLine = br.readLine()) != null) {
+                    parseAndAnalyzeReviewJson(sCurrentLine, currYear);
+                    if (lcount % 20000 == 0){
+                        System.out.println("Processed Lines = " + lcount);
+                    }
+                    lcount++;
                 }
-                lcount++;
+
+                for( Map.Entry<String, Map<String, Set<Integer>>> entry : usrReviewMap.entrySet() ){
+                    String year = entry.getKey();
+                    System.out.println("Writing EdgeList for year = " + year);
+                    //writeEdgeList(year, "");
+                    writeEdgeList(year, ".cum");
+                }
+                currYear++;
+                lcount = 0;
             }
-            for( Map.Entry<String, Map<String, Set<Integer>>> entry : usrReviewMap.entrySet() ){
-                String year = entry.getKey();
-                System.out.println("Writing EdgeList for year = " + year);
-                writeEdgeList(year, "");
-                writeEdgeList(year, ".cum");
-            }
-        writeUserIdMap();
+           // writeUserIdMap();
         }catch (Exception ex){
             ex.printStackTrace();
         }
@@ -62,6 +85,7 @@ public class EdgelistMaker {
                 for (Map.Entry<String, Set<Integer>> entry : usrReviewMap.get(yearStr).entrySet()){
                     List<Integer> userList = new ArrayList<>();
                     userList.addAll(entry.getValue());
+                    Collections.sort(userList);
                     for (int i = 0; i < userList.size()-1; i++){
                         for (int j= i+1; j < userList.size(); j++){
                             writer.append(String.valueOf(userList.get(i)));
@@ -82,6 +106,7 @@ public class EdgelistMaker {
 
     private void writeUserIdMap() {
         System.out.println("Writing User Id Map in File");
+        System.out.println("Map Size = "  + userIdMap.size());
         FileWriter writer = null;
         try{
             writer = new FileWriter(YelpConstants.FILE_PATH + "yelp_user.txt");
@@ -98,7 +123,7 @@ public class EdgelistMaker {
         }
     }
 
-    private void parseAndAnalyzeReviewJson(String line) {
+    private void parseAndAnalyzeReviewJson(String line, int currYear) {
 
         JSONParser parser = new JSONParser();
         try{
@@ -111,10 +136,9 @@ public class EdgelistMaker {
                 String businessId = (String) jsonObject.get("business_id");
                 String date = (String) jsonObject.get("date");
                 String year = date.split("-")[0];
-                if (!userIdMap.containsKey(userId)){
-                    userIdMap.put(userId, ucount++);
+                if (Integer.parseInt(year) <= currYear){
+                    updateReviewMap(year, businessId, userId);
                 }
-                updateReviewMap(year, businessId, userId);
             }
         }catch (Exception ex){
             ex.printStackTrace();
@@ -141,6 +165,7 @@ public class EdgelistMaker {
 
     public static void main(String[] args) {
         EdgelistMaker maker = new EdgelistMaker();
+        maker.init();
         maker.makeEdgeList();
     }
 
