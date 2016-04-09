@@ -26,9 +26,7 @@ public class DataStats {
         int fcount = 0;
         if (directoryListing != null) {
             for (File file : directoryListing) {
-
                 try {
-
                     Object obj = parser.parse(new FileReader(file));
 
                     JSONObject jsonObject = (JSONObject) obj;
@@ -36,24 +34,27 @@ public class DataStats {
                     Iterator itr = reviews.iterator();
 
                     while (itr.hasNext()) {
-                           JSONObject review = (JSONObject) itr.next();
-                            String date = (String) review.get("Date");
-                            String year = date.split(",")[1].trim();
-                            if(dateMap.containsKey(year)){
-                                dateMap.put(year, dateMap.get(year) +1);
-                            }else{
-                                dateMap.put(year, 1);
-                            }
+                          JSONObject review = (JSONObject) itr.next();
 
-                           JSONObject ratings = (JSONObject) review.get("Ratings");
-                           Set<String> keys = ratings.keySet();
-                            for(String key: keys){
-                                if(ratingMap.containsKey(key)){
-                                    ratingMap.put(key, ratingMap.get(key)+1);
-                                }else{
-                                    ratingMap.put(key, 1);
-                                }
-                            }
+                          JSONObject ratings = (JSONObject) review.get("Ratings");
+                          Set<String> keys = ratings.keySet();
+                          if(!isKeysPresent(keys)){
+                              continue;
+                          }
+                          for(String key: keys){
+                              if(ratingMap.containsKey(key)){
+                                   ratingMap.put(key, ratingMap.get(key)+1);
+                              }else{
+                                   ratingMap.put(key, 1);
+                              }
+                          }
+                          String date = (String) review.get("Date");
+                          String year = date.split(",")[1].trim();
+                          if(dateMap.containsKey(year)){
+                              dateMap.put(year, dateMap.get(year) +1);
+                          }else{
+                              dateMap.put(year, 1);
+                          }
                     }
 
                     if(fcount % 100 == 0){
@@ -78,6 +79,24 @@ public class DataStats {
             System.out.println(entry.getKey() + "," + entry.getValue());
         }
 
+    }
+
+    private boolean isKeysPresent(Set<String> keys) {
+
+        List<String> wantKeys = Arrays.asList("Overall", "Value", "Service", "Cleanliness", "Rooms" , "Location");
+        if(keys.size() < 6){
+            return false;
+        }
+        int count = 0;
+        for(String key : keys){
+            if(wantKeys.contains(key)){
+                count++;
+            }
+        }
+        if (count == 6){
+            return true;
+        }
+        return false;
     }
 
     public static void main(String[] args) {
